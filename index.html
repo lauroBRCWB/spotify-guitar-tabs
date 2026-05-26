@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist tabs bridge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Spotify + tabs</p>
+                <h1>One list, three music surfaces.</h1>
+                <p class="lede">
+                    Fetch a Spotify playlist, merge it with imported Cifra Club and Ultimate Guitar lists,
+                    then filter by style, artist, or free text.
+                </p>
+            </div>
+            <div class="hero-panel">
+                <div class="stat">
+                    <span class="stat-label">Songs in view</span>
+                    <strong id="songCount">0</strong>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Spotify links</span>
+                    <strong id="spotifyCount">0</strong>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Tab links</span>
+                    <strong id="tabsCount">0</strong>
+                </div>
+            </div>
+        </header>
+
+        <main class="layout">
+            <section class="panel panel-actions">
+                <div class="section-heading">
+                    <h2>Sources</h2>
+                    <p>Spotify is live. Cifra Club and Ultimate Guitar are import-assisted because both sites block reliable automated scraping.</p>
+                </div>
+
+                <div class="action-grid">
+                    <div class="source-card source-spotify">
+                        <h3>Spotify</h3>
+                        <p>Authenticate, list your playlists, and fetch tracks directly from Spotify.</p>
+                        <div class="field-stack">
+                            <label for="spotifyClientId">Spotify Client ID</label>
+                            <input id="spotifyClientId" type="text" placeholder="Paste Spotify app client ID">
+                        </div>
+                        <div class="button-row">
+                            <button id="connectSpotifyBtn" class="btn btn-primary">Connect Spotify</button>
+                            <button id="disconnectSpotifyBtn" class="btn btn-ghost">Disconnect</button>
+                        </div>
+                        <div class="field-stack">
+                            <label for="playlistSelect">Spotify playlist</label>
+                            <select id="playlistSelect" disabled>
+                                <option value="">Connect first</option>
+                            </select>
+                        </div>
+                        <button id="loadPlaylistBtn" class="btn btn-primary" disabled>Fetch playlist</button>
+                    </div>
+
+                    <div class="source-card source-cifra">
+                        <h3>Cifra Club</h3>
+                        <p>Import extracted JSON from the shared repertoire page.</p>
+                        <a class="inline-link" href="https://www.cifraclub.com.br/musico/46019570/repertorio/5936760/" target="_blank" rel="noreferrer">Open source playlist</a>
+                        <button id="importCifraBtn" class="btn btn-secondary">Import Cifra Club JSON</button>
+                    </div>
+
+                    <div class="source-card source-ug">
+                        <h3>Ultimate Guitar</h3>
+                        <p>Import extracted JSON from the shared playlist page.</p>
+                        <a class="inline-link" href="https://www.ultimate-guitar.com/playlist/shared/7r51e5j9xy19" target="_blank" rel="noreferrer">Open source playlist</a>
+                        <button id="importUgBtn" class="btn btn-secondary">Import UG JSON</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel">
+                <div class="section-heading">
+                    <h2>Filters</h2>
+                    <p>Filter the merged catalog instead of each source in isolation.</p>
+                </div>
+
+                <div class="filters">
+                    <label class="field-stack field-wide" for="searchInput">
+                        <span>Search</span>
+                        <input id="searchInput" type="text" placeholder="Song, artist, album, style">
+                    </label>
+                    <label class="field-stack" for="styleFilter">
+                        <span>Style</span>
+                        <select id="styleFilter">
+                            <option value="">All styles</option>
+                        </select>
+                    </label>
+                    <label class="field-stack" for="artistFilter">
+                        <span>Artist</span>
+                        <select id="artistFilter">
+                            <option value="">All artists</option>
+                        </select>
+                    </label>
+                    <label class="field-stack" for="coverageFilter">
+                        <span>Coverage</span>
+                        <select id="coverageFilter">
+                            <option value="">Any</option>
+                            <option value="spotify">Has Spotify</option>
+                            <option value="cifraclub">Has Cifra Club</option>
+                            <option value="ultimate-guitar">Has Ultimate Guitar</option>
+                            <option value="all-tabs">Has both tab sites</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="toolbar">
+                    <p id="statusText" class="status-text">No source loaded yet.</p>
+                    <div class="button-row">
+                        <button id="exportBtn" class="btn btn-ghost">Export merged JSON</button>
+                        <button id="seedSamplesBtn" class="btn btn-ghost">Load sample songs</button>
+                        <button id="clearDataBtn" class="btn btn-danger">Clear local data</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel">
+                <div class="section-heading">
+                    <h2>Combined list</h2>
+                    <p id="resultText">0 songs</p>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Song</th>
+                                <th>Artist</th>
+                                <th>Album</th>
+                                <th>Style</th>
+                                <th>Links</th>
+                            </tr>
+                        </thead>
+                        <tbody id="songsTableBody"></tbody>
+                    </table>
+                </div>
+                <div id="emptyState" class="empty-state" hidden>
+                    <p>No songs match the current filters.</p>
+                </div>
+            </section>
+
+            <section class="panel panel-notes">
+                <div class="section-heading">
+                    <h2>Reverse fetch notes</h2>
+                    <p>Automated scraping of the two tab sites is not reliable from this runtime because both endpoints are blocked behind access controls.</p>
+                </div>
+                <ol class="notes-list">
+                    <li>Open `import-playlists.js` in your browser devtools console on each source page.</li>
+                    <li>Copy the extracted JSON output.</li>
+                    <li>Use the corresponding import button in this page.</li>
+                    <li>The app will merge entries by normalized song title plus artist.</li>
+                </ol>
+            </section>
+        </main>
+    </div>
+
+    <dialog id="importDialog" class="import-dialog">
+        <form method="dialog" id="importForm">
+            <div class="dialog-head">
+                <div>
+                    <p class="eyebrow" id="importSourceLabel">Import</p>
+                    <h2>Paste extracted JSON</h2>
+                </div>
+                <button class="btn btn-ghost" value="cancel">Close</button>
+            </div>
+            <textarea id="importTextarea" rows="14" placeholder='[{"title":"Wonderwall","artist":"Oasis","url":"..."}]'></textarea>
+            <div class="button-row">
+                <button id="runImportBtn" value="default" class="btn btn-primary">Merge into catalog</button>
+            </div>
+        </form>
+    </dialog>
+
+    <script src="app.js"></script>
+</body>
+</html>
