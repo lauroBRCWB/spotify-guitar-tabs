@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Lauro's Guitar Tabs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f6f1e8;
+            --panel: #fffaf2;
+            --panel-strong: #f2e7d7;
+            --ink: #1d2b28;
+            --muted: #61706c;
+            --border: #d7cab7;
+            --cifra: #da6d2f;
+            --ug: #d3a917;
+            --success: #1db954;
+            --danger: #c9483b;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: "Space Grotesk", sans-serif;
+            color: var(--ink);
+            background: var(--bg);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+        h1 { margin: 0 0 8px; }
+        .subtitle { color: var(--muted); margin: 0; }
+        .stats {
+            display: flex;
+            gap: 24px;
+            margin-top: 16px;
+        }
+        .stat {
+            background: var(--panel-strong);
+            padding: 12px 20px;
+            border-radius: 12px;
+        }
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--muted);
+        }
+        .panel {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+        .panel h2 {
+            margin: 0 0 16px;
+            font-size: 1.2rem;
+        }
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 16px;
+        }
+        .field {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .field label {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--muted);
+        }
+        input, select {
+            padding: 10px 14px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            font: inherit;
+            background: white;
+        }
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--cifra);
+        }
+        .checkbox-field {
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+        .checkbox-field input {
+            width: 20px;
+            height: 20px;
+        }
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font: inherit;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: var(--success);
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #17a344;
+        }
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+        .btn-danger:hover {
+            background: #b33d31;
+        }
+        .btn-secondary {
+            background: var(--panel-strong);
+            color: var(--ink);
+        }
+        .actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            font-weight: 600;
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+        }
+        .style-tag {
+            display: inline-block;
+            padding: 4px 10px;
+            background: var(--panel-strong);
+            border-radius: 12px;
+            font-size: 0.8rem;
+        }
+        .link-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            margin-right: 4px;
+        }
+        .link-cc {
+            background: rgba(218, 109, 47, 0.15);
+            color: var(--cifra);
+        }
+        .link-ug {
+            background: rgba(211, 169, 23, 0.15);
+            color: #b8941d;
+        }
+        .delete-btn {
+            background: var(--danger);
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .search-box {
+            margin-bottom: 16px;
+        }
+        .search-box input {
+            width: 100%;
+            max-width: 400px;
+        }
+        .export-area {
+            width: 100%;
+            min-height: 200px;
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 12px;
+        }
+        .tab {
+            padding: 8px 16px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font: inherit;
+            color: var(--muted);
+            border-radius: 8px;
+        }
+        .tab.active {
+            background: var(--panel-strong);
+            color: var(--ink);
+            font-weight: 600;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎸 Admin - Lauro's Guitar Tabs</h1>
+            <p class="subtitle">Manage your song collection</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value" id="totalSongs">0</div>
+                    <div class="stat-label">Total Songs</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="cifraCount">0</div>
+                    <div class="stat-label">Cifra Club</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="ugCount">0</div>
+                    <div class="stat-label">Ultimate Guitar</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="tabs">
+            <button class="tab active" data-tab="add">Add Song</button>
+            <button class="tab" data-tab="list">Song List</button>
+            <button class="tab" data-tab="export">Export/Deploy</button>
+        </div>
+
+        <div class="tab-content active" id="add-tab">
+            <div class="panel">
+                <h2>Add New Song</h2>
+                <div class="form-grid">
+                    <div class="field">
+                        <label for="songTitle">Song Title *</label>
+                        <input type="text" id="songTitle" placeholder="e.g., Wonderwall">
+                    </div>
+                    <div class="field">
+                        <label for="songArtist">Artist *</label>
+                        <input type="text" id="songArtist" placeholder="e.g., Oasis">
+                    </div>
+                    <div class="field">
+                        <label for="songStyle">Style/Genre</label>
+                        <select id="songStyle">
+                            <option value="">Select style...</option>
+                            <option value="MPB">MPB</option>
+                            <option value="Rock">Rock</option>
+                            <option value="Pop">Pop</option>
+                            <option value="Pop Rock">Pop Rock</option>
+                            <option value="Folk">Folk</option>
+                            <option value="Reggae">Reggae</option>
+                            <option value="Grunge">Grunge</option>
+                            <option value="Metal">Metal</option>
+                            <option value="Punk Rock">Punk Rock</option>
+                            <option value="Alternative Rock">Alternative Rock</option>
+                            <option value="Sertanejo">Sertanejo</option>
+                            <option value="Children">Children</option>
+                            <option value="Instrumental">Instrumental</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="cifraUrl">Cifra Club URL</label>
+                        <input type="url" id="cifraUrl" placeholder="https://www.cifraclub.com.br/...">
+                    </div>
+                    <div class="field">
+                        <label for="ugUrl">Ultimate Guitar URL</label>
+                        <input type="url" id="ugUrl" placeholder="https://tabs.ultimate-guitar.com/...">
+                    </div>
+                </div>
+                <div class="actions">
+                    <button class="btn btn-primary" id="addSongBtn">Add Song</button>
+                    <button class="btn btn-secondary" id="clearFormBtn">Clear Form</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="list-tab">
+            <div class="panel">
+                <h2>All Songs</h2>
+                <div class="search-box">
+                    <input type="text" id="searchSongs" placeholder="Search songs...">
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Song</th>
+                            <th>Artist</th>
+                            <th>Style</th>
+                            <th>Links</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="songsTable"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="tab-content" id="export-tab">
+            <div class="panel">
+                <h2>Export & Deploy</h2>
+                <p>Copy this JSON and update the <code>ALL_SONGS</code> array in <code>app.js</code>, then commit to GitHub.</p>
+                <textarea class="export-area" id="exportArea" readonly></textarea>
+                <div class="actions">
+                    <button class="btn btn-primary" id="copyBtn">Copy to Clipboard</button>
+                    <button class="btn btn-secondary" id="downloadBtn">Download app.js</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
