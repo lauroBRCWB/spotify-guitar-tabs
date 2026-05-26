@@ -97,7 +97,10 @@ const SAMPLE_SONGS = [
   {"title": "Best Of You", "artist": "Foo Fighters", "style": "Rock", "ultimateGuitarUrl": "https://tabs.ultimate-guitar.com/tab/foo-fighters/best-of-you-official-1486"},
   {"title": "The Unforgiven", "artist": "Metallica", "style": "Metal", "ultimateGuitarUrl": "https://tabs.ultimate-guitar.com/tab/metallica/the-unforgiven-official-378"},
   {"title": "Everything You Want", "artist": "Vertical Horizon", "style": "Rock", "ultimateGuitarUrl": "https://tabs.ultimate-guitar.com/tab/vertical-horizon/everything-you-want-official-1487"},
-  {"title": "Sultans Of Swing", "artist": "Dire Straits", "style": "Rock", "ultimateGuitarUrl": "https://tabs.ultimate-guitar.com/tab/dire-straits/sultans-of-swing-official-1488"}
+  {"title": "Sultans Of Swing", "artist": "Dire Straits", "style": "Rock", "ultimateGuitarUrl": "https://tabs.ultimate-guitar.com/tab/dire-straits/sultans-of-swing-official-1488"},
+  {"title": "Wish You Were Here", "artist": "Pink Floyd", "style": "Rock", "ultimateGuitarUrl": "https://tabs.ultimate-guitar.com/tab/pink-floyd/wish-you-were-here-official-2412207"},
+  {"title": "Black", "artist": "Pearl Jam", "style": "Grunge", "ultimateGuitarUrl": "https://tabs.ultimate-guitar.com/tab/pearl-jam/black-official-2451097"},
+  {"title": "Nothing Else Matters", "artist": "Metallica", "style": "Metal", "ultimateGuitarUrl": "https://tabs.ultimate-guitar.com/tab/metallica/nothing-else-matters-official-1910953"}
 ];
 
 class PlaylistTabsBridge {
