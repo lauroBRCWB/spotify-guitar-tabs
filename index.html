@@ -49,6 +49,7 @@ tr:hover td{background:rgba(56,189,248,.04)}
 .spotify{color:#bbf7d0;border-color:rgba(34,197,94,.22);background:rgba(34,197,94,.11)}
 .youtube{color:#fecaca;border-color:rgba(248,113,113,.22);background:rgba(248,113,113,.10)}
 .ug{color:#ddd6fe;border-color:rgba(167,139,250,.22);background:rgba(167,139,250,.10)}
+.lookup{color:#cbd5e1;border-color:rgba(203,213,225,.2);background:rgba(203,213,225,.08)}
 .empty{text-align:center;padding:34px;color:var(--muted)}
 details{margin-top:16px}
 summary{cursor:pointer;padding:14px 16px;font-weight:850;color:#dbeafe}
@@ -106,7 +107,8 @@ function esc(x){return String(x ?? "").replaceAll("&","&amp;").replaceAll("<","&
 function norm(x){return String(x || "").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").replace(/\s+/g," ").trim();}
 function uniq(a){return [...new Set((a || []).filter(Boolean))];}
 function blob(s){
-  return norm([s.status,s.statusConfidence,s.canonicalTitle,s.title,...(s.titleVariants||[]),s.artist,...(s.artists||[]),s.style,...(s.sources||[]),...(s.tags||[]),...(s.notes||[]),...(s.spotifyUrls||[]),...(s.youtubeUrls||[]),...(s.cifraClubUrls||[]),...(s.ultimateGuitarUrls||[])].join(" "));
+  const lookups = Object.values(s.lookupUrls || {}).flat();
+  return norm([s.status,s.statusConfidence,s.canonicalTitle,s.title,...(s.titleVariants||[]),s.artist,...(s.artists||[]),s.style,...(s.sources||[]),...(s.tags||[]),...(s.notes||[]),...(s.spotifyUrls||[]),...(s.youtubeUrls||[]),...(s.cifraClubUrls||[]),...(s.ultimateGuitarUrls||[]),...lookups].join(" "));
 }
 function derivedStatus(s){
   if((s.cifraClubUrls || []).length || (s.ultimateGuitarUrls || []).length) return "toco";
@@ -192,6 +194,11 @@ function linkList(s){
   (s.youtubeUrls || []).forEach((u,i) => links.push(["YouTube" + ((s.youtubeUrls || []).length > 1 ? ` ${i+1}` : ""),u,"youtube"]));
   (s.cifraClubUrls || []).forEach((u,i) => links.push(["Cifra Club" + ((s.cifraClubUrls || []).length > 1 ? ` ${i+1}` : ""),u,""]));
   (s.ultimateGuitarUrls || []).forEach((u,i) => links.push(["Ultimate Guitar" + ((s.ultimateGuitarUrls || []).length > 1 ? ` ${i+1}` : ""),u,"ug"]));
+  const lookup = s.lookupUrls || {};
+  (lookup.spotify || []).forEach(u => links.push(["Buscar Spotify",u,"lookup"]));
+  (lookup.youtube || []).forEach(u => links.push(["Buscar YouTube",u,"lookup"]));
+  (lookup.cifraClub || []).forEach(u => links.push(["Buscar Cifra",u,"lookup"]));
+  (lookup.ultimateGuitar || []).forEach(u => links.push(["Buscar UG",u,"lookup"]));
   return links.length ? `<div class="row">${links.map(([l,u,c]) => `<a class="link ${c}" href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(l)}</a>`).join("")}</div>` : `<span class="chip bad">Sem link</span>`;
 }
 function deltaCell(s){
@@ -237,10 +244,11 @@ function render(){
 }
 function exportCsv(){
   const rows = filtered();
-  const head = ["status","title","artist","style","sources","spotifyUrls","youtubeUrls","cifraClubUrls","ultimateGuitarUrls"];
+  const head = ["status","title","artist","style","sources","spotifyUrls","youtubeUrls","cifraClubUrls","ultimateGuitarUrls","lookupUrls"];
   const csv = [head.join(",")].concat(rows.map(s => head.map(f => {
     let v = s[f] || "";
     if(Array.isArray(v)) v = v.join(" | ");
+    else if(v && typeof v === "object") v = Object.entries(v).flatMap(([k,vals]) => (vals || []).map(u => `${k}: ${u}`)).join(" | ");
     return `"${String(v).replaceAll('"','""')}"`;
   }).join(","))).join("\\n");
   const b = new Blob([csv],{type:"text/csv;charset=utf-8"});

@@ -86,7 +86,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley+A+Bolha"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+A+Bolha"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+A+Bolha+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "A Horse with No Name",
@@ -134,7 +146,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=America%2C+George+Martin+A+Horse+with+No+Name"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=America%2C+George+Martin+A+Horse+with+No+Name"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=America%2C+George+Martin+A+Horse+with+No+Name+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "A Lua Q Eu T Dei",
@@ -182,7 +206,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Ivete+Sangalo+A+Lua+Q+Eu+T+Dei"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Ivete+Sangalo+A+Lua+Q+Eu+T+Dei"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Ivete+Sangalo+A+Lua+Q+Eu+T+Dei+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "A Noite",
@@ -234,7 +270,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Ti%C3%AA+A+Noite"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Ti%C3%AA+A+Noite+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "A Vida É Boa Com Você - Voz E Violão",
@@ -282,7 +328,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Bryan+Behr+A+Vida+%C3%89+Boa+Com+Voc%C3%AA+-+Voz+E+Viol%C3%A3o"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Bryan+Behr+A+Vida+%C3%89+Boa+Com+Voc%C3%AA+-+Voz+E+Viol%C3%A3o"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Bryan+Behr+A+Vida+%C3%89+Boa+Com+Voc%C3%AA+-+Voz+E+Viol%C3%A3o+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Acima do Sol",
@@ -322,7 +380,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Skank+Acima+do+Sol"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Skank+Acima+do+Sol+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Skank%20Acima%20do%20Sol"
+        ]
+      }
     },
     {
       "title": "Ai Que Saudade D'ocê",
@@ -362,7 +432,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Alceu+Valen%C3%A7a+Ai+Que+Saudade+D'oc%C3%AA"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Alceu+Valen%C3%A7a+Ai+Que+Saudade+D'oc%C3%AA+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Alceu%20Valen%C3%A7a%20Ai%20Que%20Saudade%20D'oc%C3%AA"
+        ]
+      }
     },
     {
       "title": "Ainda Bem Que Chegou",
@@ -410,7 +492,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley+Ainda+Bem+Que+Chegou"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+Ainda+Bem+Que+Chegou"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+Ainda+Bem+Que+Chegou+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Alecrim",
@@ -450,7 +544,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=M%C3%BAsicas+Infantis+Alecrim"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=M%C3%BAsicas+Infantis+Alecrim+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/M%C3%BAsicas%20Infantis%20Alecrim"
+        ]
+      }
     },
     {
       "title": "Alive",
@@ -490,7 +596,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Pearl+Jam+Alive"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Pearl+Jam+Alive+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Pearl%20Jam%20Alive"
+        ]
+      }
     },
     {
       "title": "Always Remember Us This Way",
@@ -534,7 +652,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Lady+Gaga+Always+Remember+Us+This+Way+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Lady%20Gaga%20Always%20Remember%20Us%20This%20Way"
+        ]
+      }
     },
     {
       "title": "Anjo Ou Mulher",
@@ -582,7 +710,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley+Anjo+Ou+Mulher"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+Anjo+Ou+Mulher"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+Anjo+Ou+Mulher+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Anunciação",
@@ -622,7 +762,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Alceu+Valen%C3%A7a+Anuncia%C3%A7%C3%A3o"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Alceu+Valen%C3%A7a+Anuncia%C3%A7%C3%A3o+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Alceu%20Valen%C3%A7a%20Anuncia%C3%A7%C3%A3o"
+        ]
+      }
     },
     {
       "title": "Aquarela do Brasil",
@@ -670,7 +822,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Jo%C3%A3o+Gilberto%2C+Caetano+Veloso%2C+Gilberto+Gil+Aquarela+do+Brasil"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Jo%C3%A3o+Gilberto%2C+Caetano+Veloso%2C+Gilberto+Gil+Aquarela+do+Brasil"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Jo%C3%A3o+Gilberto%2C+Caetano+Veloso%2C+Gilberto+Gil+Aquarela+do+Brasil+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Até o Fim",
@@ -723,7 +887,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Engenheiros+do+Hawaii+At%C3%A9+o+Fim"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Engenheiros+do+Hawaii+At%C3%A9+o+Fim+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Azul da Cor do Mar",
@@ -763,7 +937,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Tim+Maia+Azul+da+Cor+do+Mar"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Tim+Maia+Azul+da+Cor+do+Mar+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Tim%20Maia%20Azul%20da%20Cor%20do%20Mar"
+        ]
+      }
     },
     {
       "title": "Banho É Bom",
@@ -813,7 +999,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Castelo+R%C3%A1-Tim-Bum+Banho+%C3%89+Bom"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Castelo+R%C3%A1-Tim-Bum+Banho+%C3%89+Bom"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Castelo%20R%C3%A1-Tim-Bum%20Banho%20%C3%89%20Bom"
+        ]
+      }
     },
     {
       "title": "Barely Breathing",
@@ -853,7 +1051,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Duncan+Sheik+Barely+Breathing"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Duncan+Sheik+Barely+Breathing+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Duncan%20Sheik%20Barely%20Breathing"
+        ]
+      }
     },
     {
       "title": "Beija-Flor",
@@ -901,7 +1111,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Timbalada+Beija-Flor"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Timbalada+Beija-Flor"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Timbalada+Beija-Flor+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Best Of You",
@@ -941,7 +1163,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Foo+Fighters+Best+Of+You"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Foo+Fighters+Best+Of+You+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Foo%20Fighters%20Best%20Of%20You"
+        ]
+      }
     },
     {
       "title": "Bixinho",
@@ -981,7 +1215,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=DUDA+BEAT+Bixinho"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=DUDA+BEAT+Bixinho+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/DUDA%20BEAT%20Bixinho"
+        ]
+      }
     },
     {
       "title": "Black",
@@ -1021,7 +1267,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Pearl+Jam+Black"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Pearl+Jam+Black+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Pearl%20Jam%20Black"
+        ]
+      }
     },
     {
       "title": "Bloodstream",
@@ -1071,7 +1329,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Ed+Sheeran+Bloodstream"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Ed+Sheeran+Bloodstream"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Ed%20Sheeran%20Bloodstream"
+        ]
+      }
     },
     {
       "title": "Bloom",
@@ -1121,7 +1391,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=The+Paper+Kites+Bloom"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=The+Paper+Kites+Bloom"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/The%20Paper%20Kites%20Bloom"
+        ]
+      }
     },
     {
       "title": "Boa Sorte / Good Luck",
@@ -1161,7 +1443,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vanessa+da+Mata+Boa+Sorte+%2F+Good+Luck"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vanessa+da+Mata+Boa+Sorte+%2F+Good+Luck+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Vanessa%20da%20Mata%20Boa%20Sorte%20%2F%20Good%20Luck"
+        ]
+      }
     },
     {
       "title": "Brasileirinho",
@@ -1211,7 +1505,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Waldir+Azevedo+Brasileirinho"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Waldir+Azevedo+Brasileirinho"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Waldir%20Azevedo%20Brasileirinho"
+        ]
+      }
     },
     {
       "title": "Burguesinha",
@@ -1262,7 +1568,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Seu+Jorge+Burguesinha"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Seu+Jorge+Burguesinha+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Can't Help Falling In Love",
@@ -1302,7 +1618,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=UB40+Can't+Help+Falling+In+Love"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=UB40+Can't+Help+Falling+In+Love+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/UB40%20Can't%20Help%20Falling%20In%20Love"
+        ]
+      }
     },
     {
       "title": "Casinha Branca",
@@ -1350,7 +1678,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Roberta+Campos+Casinha+Branca"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Roberta+Campos+Casinha+Branca"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Roberta+Campos+Casinha+Branca+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Chubina",
@@ -1398,7 +1738,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=East+Duo+Chubina"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=East+Duo+Chubina"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=East+Duo+Chubina+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Como Eu Quero",
@@ -1438,7 +1790,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Kid+Abelha+Como+Eu+Quero"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Kid+Abelha+Como+Eu+Quero+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Kid%20Abelha%20Como%20Eu%20Quero"
+        ]
+      }
     },
     {
       "title": "Comptine D'un Autre Été",
@@ -1488,7 +1852,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Yann+Tiersen+Comptine+D'un+Autre+%C3%89t%C3%A9"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Yann+Tiersen+Comptine+D'un+Autre+%C3%89t%C3%A9"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Yann%20Tiersen%20Comptine%20D'un%20Autre%20%C3%89t%C3%A9"
+        ]
+      }
     },
     {
       "title": "Corazón Partío - Live",
@@ -1536,7 +1912,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Ivete+Sangalo%2C+Alejandro+Sanz+Coraz%C3%B3n+Part%C3%ADo+-+Live"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Ivete+Sangalo%2C+Alejandro+Sanz+Coraz%C3%B3n+Part%C3%ADo+-+Live"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Ivete+Sangalo%2C+Alejandro+Sanz+Coraz%C3%B3n+Part%C3%ADo+-+Live+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Cotton Eye Joe",
@@ -1576,7 +1964,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=The+Sweeplings+Cotton+Eye+Joe"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=The+Sweeplings+Cotton+Eye+Joe+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/The%20Sweeplings%20Cotton%20Eye%20Joe"
+        ]
+      }
     },
     {
       "title": "Counting Stars",
@@ -1616,7 +2016,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=OneRepublic+Counting+Stars"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=OneRepublic+Counting+Stars+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/OneRepublic%20Counting%20Stars"
+        ]
+      }
     },
     {
       "title": "Creep",
@@ -1656,7 +2068,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Radiohead+Creep"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Radiohead+Creep+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Radiohead%20Creep"
+        ]
+      }
     },
     {
       "title": "Dance Monkey",
@@ -1707,7 +2131,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Tones+And+I+Dance+Monkey"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Tones%20And%20I%20Dance%20Monkey"
+        ]
+      }
     },
     {
       "title": "Dani",
@@ -1755,7 +2189,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Biquini+Cavad%C3%A3o+Dani"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Biquini+Cavad%C3%A3o+Dani"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Biquini+Cavad%C3%A3o+Dani+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "De Janeiro a Janeiro",
@@ -1803,7 +2249,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Roberta+Campos%2C+Nando+Reis+De+Janeiro+a+Janeiro"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Roberta+Campos%2C+Nando+Reis+De+Janeiro+a+Janeiro"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Roberta+Campos%2C+Nando+Reis+De+Janeiro+a+Janeiro+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "De Ushuaia A La Quiaca",
@@ -1843,7 +2301,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Gustavo+Santaolalla+De+Ushuaia+A+La+Quiaca"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Gustavo+Santaolalla+De+Ushuaia+A+La+Quiaca+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Gustavo%20Santaolalla%20De%20Ushuaia%20A%20La%20Quiaca"
+        ]
+      }
     },
     {
       "title": "Deixe-me Ir",
@@ -1896,7 +2366,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=1Kilo+Deixe-me+Ir"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=1Kilo+Deixe-me+Ir+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Devagarinho",
@@ -1948,7 +2428,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Gilsons+Devagarinho"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Gilsons+Devagarinho+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Diamond In the Rough",
@@ -1996,7 +2486,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Beady+Belle+Diamond+In+the+Rough"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Beady+Belle+Diamond+In+the+Rough"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Beady+Belle+Diamond+In+the+Rough+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Don't Let Me Down",
@@ -2036,7 +2538,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=The+Beatles+Don't+Let+Me+Down"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=The+Beatles+Don't+Let+Me+Down+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/The%20Beatles%20Don't%20Let%20Me%20Down"
+        ]
+      }
     },
     {
       "title": "Don't Stop Believin'",
@@ -2086,7 +2600,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Journey+Don't+Stop+Believin'"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Journey+Don't+Stop+Believin'"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Journey%20Don't%20Stop%20Believin'"
+        ]
+      }
     },
     {
       "title": "Dueto",
@@ -2134,7 +2660,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Chico+Buarque%2C+Clara+Buarque+Dueto"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Chico+Buarque%2C+Clara+Buarque+Dueto"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Chico+Buarque%2C+Clara+Buarque+Dueto+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Dust In The Wind",
@@ -2197,7 +2735,15 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Kansas+Dust+In+The+Wind"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [],
+        "spotify": []
+      }
     },
     {
       "title": "Dúvida",
@@ -2245,7 +2791,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley%2C+J%C3%A3o+D%C3%BAvida"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley%2C+J%C3%A3o+D%C3%BAvida"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley%2C+J%C3%A3o+D%C3%BAvida+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Eu Que Não Amo Você - Ao Vivo",
@@ -2293,7 +2851,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Engenheiros+Do+Hawaii+Eu+Que+N%C3%A3o+Amo+Voc%C3%AA+-+Ao+Vivo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Engenheiros+Do+Hawaii+Eu+Que+N%C3%A3o+Amo+Voc%C3%AA+-+Ao+Vivo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Engenheiros+Do+Hawaii+Eu+Que+N%C3%A3o+Amo+Voc%C3%AA+-+Ao+Vivo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Eu Te Amo - Voz E Violão",
@@ -2341,7 +2911,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Bryan+Behr+Eu+Te+Amo+-+Voz+E+Viol%C3%A3o"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Bryan+Behr+Eu+Te+Amo+-+Voz+E+Viol%C3%A3o"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Bryan+Behr+Eu+Te+Amo+-+Voz+E+Viol%C3%A3o+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Everything You Want",
@@ -2381,7 +2963,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vertical+Horizon+Everything+You+Want"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vertical+Horizon+Everything+You+Want+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Vertical%20Horizon%20Everything%20You%20Want"
+        ]
+      }
     },
     {
       "title": "Exagerado",
@@ -2421,7 +3015,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Cazuza+Exagerado"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Cazuza+Exagerado+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Cazuza%20Exagerado"
+        ]
+      }
     },
     {
       "title": "Fazendinha",
@@ -2471,7 +3077,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Mundo+Bita+Fazendinha"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Mundo+Bita+Fazendinha"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Mundo%20Bita%20Fazendinha"
+        ]
+      }
     },
     {
       "title": "Fragile",
@@ -2521,7 +3139,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Sting+Fragile"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Sting+Fragile"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Sting%20Fragile"
+        ]
+      }
     },
     {
       "title": "From Now On",
@@ -2571,7 +3201,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=The+Greatest+Showman+From+Now+On"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=The+Greatest+Showman+From+Now+On"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/The%20Greatest%20Showman%20From%20Now%20On"
+        ]
+      }
     },
     {
       "title": "Garotos II - O Outro Lado",
@@ -2632,7 +3274,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Leoni+Garotos+II+-+O+Outro+Lado"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Leoni+Garotos+II+-+O+Outro+Lado+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Good Riddance (Time Of Your Life)",
@@ -2676,7 +3328,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Green+Day+Good+Riddance+(Time+Of+Your+Life)+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Green%20Day%20Good%20Riddance%20(Time%20Of%20Your%20Life)"
+        ]
+      }
     },
     {
       "title": "Happy",
@@ -2726,7 +3388,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Pharrell+Williams+Happy"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Pharrell+Williams+Happy"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Pharrell%20Williams%20Happy"
+        ]
+      }
     },
     {
       "title": "Have You Ever Seen The Rain",
@@ -2777,7 +3451,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Creedence+Clearwater+Revival+Have+You+Ever+Seen+The+Rain"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Creedence+Clearwater+Revival+Have+You+Ever+Seen+The+Rain+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Here Comes The Sun",
@@ -2817,7 +3501,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=The+Beatles+Here+Comes+The+Sun"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=The+Beatles+Here+Comes+The+Sun+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/The%20Beatles%20Here%20Comes%20The%20Sun"
+        ]
+      }
     },
     {
       "title": "Hey Ya",
@@ -2869,7 +3565,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Avriel+%26+The+Sequoias+Hey+Ya"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Avriel+%26+The+Sequoias+Hey+Ya+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Hotel California",
@@ -2932,7 +3638,15 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Eagles+Hotel+California"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [],
+        "spotify": []
+      }
     },
     {
       "title": "House Of The Rising Sun",
@@ -2980,7 +3694,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Doc+Watson%2C+Richard+Watson+House+Of+The+Rising+Sun"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Doc+Watson%2C+Richard+Watson+House+Of+The+Rising+Sun"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Doc+Watson%2C+Richard+Watson+House+Of+The+Rising+Sun+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "I See Fire",
@@ -3020,7 +3746,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Ed+Sheeran+I+See+Fire"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Ed+Sheeran+I+See+Fire+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Ed%20Sheeran%20I%20See%20Fire"
+        ]
+      }
     },
     {
       "title": "Iaiá (Acústico)",
@@ -3068,7 +3806,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Daparte+Iai%C3%A1+(Ac%C3%BAstico)"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Daparte+Iai%C3%A1+(Ac%C3%BAstico)"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Daparte+Iai%C3%A1+(Ac%C3%BAstico)+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Imagine",
@@ -3108,7 +3858,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=John+Lennon+Imagine"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=John+Lennon+Imagine+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/John%20Lennon%20Imagine"
+        ]
+      }
     },
     {
       "title": "Intro",
@@ -3148,7 +3910,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=The+xx+Intro"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=The+xx+Intro+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/The%20xx%20Intro"
+        ]
+      }
     },
     {
       "title": "Já Sei Namorar",
@@ -3188,7 +3962,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Tribalistas+J%C3%A1+Sei+Namorar"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Tribalistas+J%C3%A1+Sei+Namorar+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Tribalistas%20J%C3%A1%20Sei%20Namorar"
+        ]
+      }
     },
     {
       "title": "Jacarandá",
@@ -3236,7 +4022,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley%2C+Vit%C3%A3o+Jacarand%C3%A1"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley%2C+Vit%C3%A3o+Jacarand%C3%A1"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley%2C+Vit%C3%A3o+Jacarand%C3%A1+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Je Veux",
@@ -3276,7 +4074,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Zaz+Je+Veux"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Zaz+Je+Veux+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Zaz%20Je%20Veux"
+        ]
+      }
     },
     {
       "title": "Kiss From a Rose",
@@ -3320,7 +4130,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Seal+Kiss+From+a+Rose+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Seal%20Kiss%20From%20a%20Rose"
+        ]
+      }
     },
     {
       "title": "Knockin' On Heaven's Door",
@@ -3368,7 +4188,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Bob+Dylan+Knockin'+On+Heaven's+Door"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Bob+Dylan+Knockin'+On+Heaven's+Door"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Bob+Dylan+Knockin'+On+Heaven's+Door+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Lágrimas e Chuva",
@@ -3420,7 +4252,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Kid+Abelha+L%C3%A1grimas+e+Chuva"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Kid+Abelha+L%C3%A1grimas+e+Chuva+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Last Kiss",
@@ -3460,7 +4302,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Pearl+Jam+Last+Kiss"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Pearl+Jam+Last+Kiss+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Pearl%20Jam%20Last%20Kiss"
+        ]
+      }
     },
     {
       "title": "Lenha",
@@ -3500,7 +4354,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Zeca+Baleiro+Lenha"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Zeca+Baleiro+Lenha+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Zeca%20Baleiro%20Lenha"
+        ]
+      }
     },
     {
       "title": "Lewis & Clark",
@@ -3548,7 +4414,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Tommy+Emmanuel+Lewis+%26+Clark"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Tommy+Emmanuel+Lewis+%26+Clark"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Tommy+Emmanuel+Lewis+%26+Clark+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Linger",
@@ -3588,7 +4466,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=The+Cranberries+Linger"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=The+Cranberries+Linger+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/The%20Cranberries%20Linger"
+        ]
+      }
     },
     {
       "title": "Long Train Runnin'",
@@ -3636,7 +4526,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=The+Doobie+Brothers+Long+Train+Runnin'"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=The+Doobie+Brothers+Long+Train+Runnin'"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=The+Doobie+Brothers+Long+Train+Runnin'+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Losing My Religion",
@@ -3696,7 +4598,17 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=R.E.M.+Losing+My+Religion"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=R.E.M.+Losing+My+Religion"
+        ],
+        "youtube": [],
+        "spotify": []
+      }
     },
     {
       "title": "Love Knows the Clouds",
@@ -3744,7 +4656,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Chip+Taylor+Love+Knows+the+Clouds"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Chip+Taylor+Love+Knows+the+Clouds"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Chip+Taylor+Love+Knows+the+Clouds+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Love Love",
@@ -3784,7 +4708,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Gilsons+Love+Love"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Gilsons+Love+Love+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Gilsons%20Love%20Love"
+        ]
+      }
     },
     {
       "title": "Mais Uma Vez",
@@ -3824,7 +4760,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Jota+Quest+Mais+Uma+Vez"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Jota+Quest+Mais+Uma+Vez+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Jota%20Quest%20Mais%20Uma%20Vez"
+        ]
+      }
     },
     {
       "title": "Malandragem",
@@ -3875,7 +4823,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=C%C3%A1ssia+Eller+Malandragem"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=C%C3%A1ssia+Eller+Malandragem+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Me Namora",
@@ -3915,7 +4873,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Natiruts+Me+Namora"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Natiruts+Me+Namora+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Natiruts%20Me%20Namora"
+        ]
+      }
     },
     {
       "title": "Medo Bobo",
@@ -3967,7 +4937,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Maiara+%26+Maraisa+Medo+Bobo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Maiara+%26+Maraisa+Medo+Bobo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Menina Linda",
@@ -4015,7 +4995,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley+Menina+Linda"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+Menina+Linda"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+Menina+Linda+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Menina Mulher Da Pele Preta / O Telefone Tocou Novamente - Ao Vivo",
@@ -4063,7 +5055,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Jorge+Ben+Jor+Menina+Mulher+Da+Pele+Preta+%2F+O+Telefone+Tocou+Novamente+-+Ao+Vivo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Jorge+Ben+Jor+Menina+Mulher+Da+Pele+Preta+%2F+O+Telefone+Tocou+Novamente+-+Ao+Vivo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Jorge+Ben+Jor+Menina+Mulher+Da+Pele+Preta+%2F+O+Telefone+Tocou+Novamente+-+Ao+Vivo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Meu Pedaço de Pecado",
@@ -4120,7 +5124,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=M%C3%A3eana+Meu+Peda%C3%A7o+de+Pecado"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=M%C3%A3eana+Meu+Peda%C3%A7o+de+Pecado"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=M%C3%A3eana+Meu+Peda%C3%A7o+de+Pecado+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Milla - Versão Estúdio",
@@ -4168,7 +5184,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Netinho+Milla+-+Vers%C3%A3o+Est%C3%BAdio"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Netinho+Milla+-+Vers%C3%A3o+Est%C3%BAdio"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Netinho+Milla+-+Vers%C3%A3o+Est%C3%BAdio+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Minha Felicidade",
@@ -4219,7 +5247,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Roberta+Campos+Minha+Felicidade"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Roberta+Campos+Minha+Felicidade+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Músicas da Galinha Pintadinha",
@@ -4269,7 +5307,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Galinha+Pintadinha+M%C3%BAsicas+da+Galinha+Pintadinha"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Galinha+Pintadinha+M%C3%BAsicas+da+Galinha+Pintadinha"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Galinha%20Pintadinha%20M%C3%BAsicas%20da%20Galinha%20Pintadinha"
+        ]
+      }
     },
     {
       "title": "Ninguém",
@@ -4317,7 +5367,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Fran%2C+Chico+Chico+Ningu%C3%A9m"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Fran%2C+Chico+Chico+Ningu%C3%A9m"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Fran%2C+Chico+Chico+Ningu%C3%A9m+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Nobre Vagabundo",
@@ -4365,7 +5427,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Daniela+Mercury+Nobre+Vagabundo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Daniela+Mercury+Nobre+Vagabundo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Daniela+Mercury+Nobre+Vagabundo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Nothing Else Matters",
@@ -4405,7 +5479,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Metallica+Nothing+Else+Matters"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Metallica+Nothing+Else+Matters+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Metallica%20Nothing%20Else%20Matters"
+        ]
+      }
     },
     {
       "title": "Nutshell - Acoustic Live",
@@ -4453,7 +5539,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Staind+Nutshell+-+Acoustic+Live"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Staind+Nutshell+-+Acoustic+Live"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Staind+Nutshell+-+Acoustic+Live+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "O Amor é o Segredo",
@@ -4501,7 +5599,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley+O+Amor+%C3%A9+o+Segredo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+O+Amor+%C3%A9+o+Segredo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+O+Amor+%C3%A9+o+Segredo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "O' Children",
@@ -4541,7 +5651,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Nick+Cave+O'+Children"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Nick+Cave+O'+Children+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Nick%20Cave%20O'%20Children"
+        ]
+      }
     },
     {
       "title": "O Passageiro",
@@ -4581,7 +5703,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Capital+Inicial+O+Passageiro"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Capital+Inicial+O+Passageiro+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Capital%20Inicial%20O%20Passageiro"
+        ]
+      }
     },
     {
       "title": "O Show Tem Que Continuar",
@@ -4629,7 +5763,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=MaLu+O+Show+Tem+Que+Continuar"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=MaLu+O+Show+Tem+Que+Continuar"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=MaLu+O+Show+Tem+Que+Continuar+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "O Sol",
@@ -4669,7 +5815,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+O+Sol"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+O+Sol+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Vitor%20Kley%20O%20Sol"
+        ]
+      }
     },
     {
       "title": "O Tempo",
@@ -4717,7 +5875,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley+O+Tempo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+O+Tempo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+O+Tempo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Onde Você Mora?",
@@ -4765,7 +5935,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Nando+Reis%2C+Melim+Onde+Voc%C3%AA+Mora%3F"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Nando+Reis%2C+Melim+Onde+Voc%C3%AA+Mora%3F"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Nando+Reis%2C+Melim+Onde+Voc%C3%AA+Mora%3F+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Pagu",
@@ -4813,7 +5995,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Rita+Lee%2C+Z%C3%A9lia+Duncan+Pagu"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Rita+Lee%2C+Z%C3%A9lia+Duncan+Pagu"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Rita+Lee%2C+Z%C3%A9lia+Duncan+Pagu+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Partilhar",
@@ -4853,7 +6047,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Rubel+Partilhar"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Rubel+Partilhar+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Rubel%20Partilhar"
+        ]
+      }
     },
     {
       "title": "Pescador de Ilusões",
@@ -4893,7 +6099,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=O+Rappa+Pescador+de+Ilus%C3%B5es"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=O+Rappa+Pescador+de+Ilus%C3%B5es+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/O%20Rappa%20Pescador%20de%20Ilus%C3%B5es"
+        ]
+      }
     },
     {
       "title": "Pintinho Amarelinho",
@@ -4933,7 +6151,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Galinha+Pintadinha+Pintinho+Amarelinho"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Galinha+Pintadinha+Pintinho+Amarelinho+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Galinha%20Pintadinha%20Pintinho%20Amarelinho"
+        ]
+      }
     },
     {
       "title": "Ponto de Paz",
@@ -4981,7 +6211,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley+Ponto+de+Paz"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+Ponto+de+Paz"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+Ponto+de+Paz+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Por Onde Andei - Ao Vivo",
@@ -5029,7 +6271,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Nando+Reis+Por+Onde+Andei+-+Ao+Vivo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Nando+Reis+Por+Onde+Andei+-+Ao+Vivo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Nando+Reis+Por+Onde+Andei+-+Ao+Vivo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Pra Dizer Adeus",
@@ -5069,7 +6323,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Tit%C3%A3s+Pra+Dizer+Adeus"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Tit%C3%A3s+Pra+Dizer+Adeus+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Tit%C3%A3s%20Pra%20Dizer%20Adeus"
+        ]
+      }
     },
     {
       "title": "Proibida Pra Mim",
@@ -5121,7 +6387,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Zeca+Baleiro+Proibida+Pra+Mim"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Zeca+Baleiro+Proibida+Pra+Mim+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Put Your Records On",
@@ -5169,7 +6445,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Corinne+Bailey+Rae+Put+Your+Records+On"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Corinne+Bailey+Rae+Put+Your+Records+On"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Corinne+Bailey+Rae+Put+Your+Records+On+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Qualquer Coisa",
@@ -5217,7 +6505,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Caetano+Veloso+Qualquer+Coisa"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Caetano+Veloso+Qualquer+Coisa"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Caetano+Veloso+Qualquer+Coisa+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Quando Eu Te Encontrar - Ao Vivo",
@@ -5265,7 +6565,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Biquini+Cavad%C3%A3o+Quando+Eu+Te+Encontrar+-+Ao+Vivo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Biquini+Cavad%C3%A3o+Quando+Eu+Te+Encontrar+-+Ao+Vivo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Biquini+Cavad%C3%A3o+Quando+Eu+Te+Encontrar+-+Ao+Vivo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Quanto Tempo Demora um Mês - Ao Vivo",
@@ -5313,7 +6625,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Biquini+Cavad%C3%A3o+Quanto+Tempo+Demora+um+M%C3%AAs+-+Ao+Vivo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Biquini+Cavad%C3%A3o+Quanto+Tempo+Demora+um+M%C3%AAs+-+Ao+Vivo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Biquini+Cavad%C3%A3o+Quanto+Tempo+Demora+um+M%C3%AAs+-+Ao+Vivo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Quarter Past Four",
@@ -5357,7 +6681,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Avriel+%26+The+Sequoias+Quarter+Past+Four+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Avriel%20%26%20The%20Sequoias%20Quarter%20Past%20Four"
+        ]
+      }
     },
     {
       "title": "Quase sem querer",
@@ -5405,7 +6739,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Z%C3%A9lia+Duncan+Quase+sem+querer"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Z%C3%A9lia+Duncan+Quase+sem+querer"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Z%C3%A9lia+Duncan+Quase+sem+querer+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Quero Ser Feliz Também",
@@ -5445,7 +6791,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Natiruts+Quero+Ser+Feliz+Tamb%C3%A9m"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Natiruts+Quero+Ser+Feliz+Tamb%C3%A9m+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Natiruts%20Quero%20Ser%20Feliz%20Tamb%C3%A9m"
+        ]
+      }
     },
     {
       "title": "Relicário - Ao Vivo",
@@ -5493,7 +6851,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=C%C3%A1ssia+Eller%2C+Nando+Reis+Relic%C3%A1rio+-+Ao+Vivo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=C%C3%A1ssia+Eller%2C+Nando+Reis+Relic%C3%A1rio+-+Ao+Vivo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=C%C3%A1ssia+Eller%2C+Nando+Reis+Relic%C3%A1rio+-+Ao+Vivo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Retina",
@@ -5541,7 +6911,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley+Retina"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+Retina"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+Retina+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Rewrite The Stars",
@@ -5591,7 +6973,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=The+Greatest+Showman+Rewrite+The+Stars"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=The+Greatest+Showman+Rewrite+The+Stars"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/The%20Greatest%20Showman%20Rewrite%20The%20Stars"
+        ]
+      }
     },
     {
       "title": "Riding the Blues",
@@ -5639,7 +7033,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Snowy+White%2C+The+White+Flames+Riding+the+Blues"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Snowy+White%2C+The+White+Flames+Riding+the+Blues"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Snowy+White%2C+The+White+Flames+Riding+the+Blues+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Right Here Waiting",
@@ -5679,7 +7085,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Richard+Marx+Right+Here+Waiting"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Richard+Marx+Right+Here+Waiting+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Richard%20Marx%20Right%20Here%20Waiting"
+        ]
+      }
     },
     {
       "title": "Rocket Man (I Think It's Going To Be A Long, Long Time)",
@@ -5727,7 +7145,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Elton+John+Rocket+Man+(I+Think+It's+Going+To+Be+A+Long%2C+Long+Time)"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Elton+John+Rocket+Man+(I+Think+It's+Going+To+Be+A+Long%2C+Long+Time)"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Elton+John+Rocket+Man+(I+Think+It's+Going+To+Be+A+Long%2C+Long+Time)+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Rodo Cotidiano",
@@ -5779,7 +7209,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=O+Rappa+Rodo+Cotidiano"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=O+Rappa+Rodo+Cotidiano+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Roxanne",
@@ -5829,7 +7269,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=The+Police+Roxanne"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=The+Police+Roxanne"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/The%20Police%20Roxanne"
+        ]
+      }
     },
     {
       "title": "Samba no violão",
@@ -5879,7 +7331,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Technique+Samba+no+viol%C3%A3o"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Technique+Samba+no+viol%C3%A3o"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Technique%20Samba%20no%20viol%C3%A3o"
+        ]
+      }
     },
     {
       "title": "Samba Rock do Seu Jorge",
@@ -5929,7 +7393,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Seu+Jorge+Samba+Rock+do+Seu+Jorge"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Seu+Jorge+Samba+Rock+do+Seu+Jorge"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Seu%20Jorge%20Samba%20Rock%20do%20Seu%20Jorge"
+        ]
+      }
     },
     {
       "title": "Save Tonight",
@@ -5969,7 +7445,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Eagle-Eye+Cherry+Save+Tonight"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Eagle-Eye+Cherry+Save+Tonight+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Eagle-Eye%20Cherry%20Save%20Tonight"
+        ]
+      }
     },
     {
       "title": "Say Something",
@@ -6019,7 +7507,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=A+Great+Big+World%2C+Christina+Aguilera+Say+Something"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=A+Great+Big+World%2C+Christina+Aguilera+Say+Something"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/A%20Great%20Big%20World%2C%20Christina%20Aguilera%20Say%20Something"
+        ]
+      }
     },
     {
       "title": "Se Essa Rua Fosse Minha",
@@ -6069,7 +7569,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=M%C3%BAsicas+Infantis+Se+Essa+Rua+Fosse+Minha"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=M%C3%BAsicas+Infantis+Se+Essa+Rua+Fosse+Minha"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/M%C3%BAsicas%20Infantis%20Se%20Essa%20Rua%20Fosse%20Minha"
+        ]
+      }
     },
     {
       "title": "Se Eu Não Te Amasse Tanto Assim - Acústico Em Trancoso / Ao Vivo",
@@ -6117,7 +7629,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Ivete+Sangalo+Se+Eu+N%C3%A3o+Te+Amasse+Tanto+Assim+-+Ac%C3%BAstico+Em+Trancoso+%2F+Ao+Vivo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Ivete+Sangalo+Se+Eu+N%C3%A3o+Te+Amasse+Tanto+Assim+-+Ac%C3%BAstico+Em+Trancoso+%2F+Ao+Vivo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Ivete+Sangalo+Se+Eu+N%C3%A3o+Te+Amasse+Tanto+Assim+-+Ac%C3%BAstico+Em+Trancoso+%2F+Ao+Vivo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Secret Smile",
@@ -6165,7 +7689,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Semisonic+Secret+Smile"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Semisonic+Secret+Smile"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Semisonic+Secret+Smile+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Shallow",
@@ -6205,7 +7741,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Lady+Gaga+Shallow"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Lady+Gaga+Shallow+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Lady%20Gaga%20Shallow"
+        ]
+      }
     },
     {
       "title": "Simple Song",
@@ -6245,7 +7793,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Passenger+Simple+Song"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Passenger+Simple+Song+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Passenger%20Simple%20Song"
+        ]
+      }
     },
     {
       "title": "Sitting Waiting Wishing",
@@ -6285,7 +7845,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Jack+Johnson+Sitting+Waiting+Wishing"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Jack+Johnson+Sitting+Waiting+Wishing+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Jack%20Johnson%20Sitting%20Waiting%20Wishing"
+        ]
+      }
     },
     {
       "title": "Só Os Loucos Sabem",
@@ -6325,7 +7897,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Charlie+Brown+Jr.+S%C3%B3+Os+Loucos+Sabem"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Charlie+Brown+Jr.+S%C3%B3+Os+Loucos+Sabem+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Charlie%20Brown%20Jr.%20S%C3%B3%20Os%20Loucos%20Sabem"
+        ]
+      }
     },
     {
       "title": "Só Pro Meu Prazer",
@@ -6373,7 +7957,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Leoni+S%C3%B3+Pro+Meu+Prazer"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Leoni+S%C3%B3+Pro+Meu+Prazer"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Leoni+S%C3%B3+Pro+Meu+Prazer+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Society",
@@ -6443,7 +8039,15 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Eddie+Vedder+Society"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [],
+        "spotify": []
+      }
     },
     {
       "title": "Someone Like You",
@@ -6483,7 +8087,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Adele+Someone+Like+You"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Adele+Someone+Like+You+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Adele%20Someone%20Like%20You"
+        ]
+      }
     },
     {
       "title": "Somewhere Over The Rainbow",
@@ -6523,7 +8139,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Israel+Kamakawiwo'ole+Somewhere+Over+The+Rainbow"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Israel+Kamakawiwo'ole+Somewhere+Over+The+Rainbow+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Israel%20Kamakawiwo'ole%20Somewhere%20Over%20The%20Rainbow"
+        ]
+      }
     },
     {
       "title": "Somos Quem Podemos Ser - Ao Vivo",
@@ -6571,7 +8199,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Engenheiros+Do+Hawaii+Somos+Quem+Podemos+Ser+-+Ao+Vivo"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Engenheiros+Do+Hawaii+Somos+Quem+Podemos+Ser+-+Ao+Vivo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Engenheiros+Do+Hawaii+Somos+Quem+Podemos+Ser+-+Ao+Vivo+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Sorri, Sou Rei",
@@ -6611,7 +8251,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Natiruts+Sorri%2C+Sou+Rei"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Natiruts+Sorri%2C+Sou+Rei+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Natiruts%20Sorri%2C%20Sou%20Rei"
+        ]
+      }
     },
     {
       "title": "Stairway To Heaven",
@@ -6674,7 +8326,15 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Led+Zeppelin+Stairway+To+Heaven"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [],
+        "spotify": []
+      }
     },
     {
       "title": "Stand By Me",
@@ -6714,7 +8374,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=The+Beatles+Stand+By+Me"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=The+Beatles+Stand+By+Me+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/The%20Beatles%20Stand%20By%20Me"
+        ]
+      }
     },
     {
       "title": "Strani Amori",
@@ -6762,7 +8434,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Renato+Russo+Strani+Amori"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Renato+Russo+Strani+Amori"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Renato+Russo+Strani+Amori+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Sua Falta",
@@ -6810,7 +8494,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley+Sua+Falta"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+Sua+Falta"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+Sua+Falta+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Suite For Cello Solo No.1 In G Major, BWV 1007 (arr. for Baritone Guitar): 1. Prélude",
@@ -6858,7 +8554,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Johann+Sebastian+Bach%2C+Slava+Grigoryan+Suite+For+Cello+Solo+No.1+In+G+Major%2C+BWV+1007+(arr.+for+Baritone+Guitar)%3A+1.+Pr%C3%A9lude"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Johann+Sebastian+Bach%2C+Slava+Grigoryan+Suite+For+Cello+Solo+No.1+In+G+Major%2C+BWV+1007+(arr.+for+Baritone+Guitar)%3A+1.+Pr%C3%A9lude"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Johann+Sebastian+Bach%2C+Slava+Grigoryan+Suite+For+Cello+Solo+No.1+In+G+Major%2C+BWV+1007+(arr.+for+Baritone+Guitar)%3A+1.+Pr%C3%A9lude+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Sultans Of Swing",
@@ -6909,7 +8617,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Dire+Straits+Sultans+Of+Swing"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Dire+Straits+Sultans+Of+Swing+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Sunrise",
@@ -6957,7 +8675,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Norah+Jones+Sunrise"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Norah+Jones+Sunrise"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Norah+Jones+Sunrise+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Swing da Cor",
@@ -7005,7 +8735,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Daniela+Mercury+Swing+da+Cor"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Daniela+Mercury+Swing+da+Cor"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Daniela+Mercury+Swing+da+Cor+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Telegrama",
@@ -7056,7 +8798,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Zeca+Baleiro+Telegrama"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Zeca+Baleiro+Telegrama+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Tempo Perdido",
@@ -7107,7 +8859,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Legi%C3%A3o+Urbana+Tempo+Perdido"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Legi%C3%A3o+Urbana+Tempo+Perdido+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "The Logical Song - Remastered 2010",
@@ -7155,7 +8917,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Supertramp+The+Logical+Song+-+Remastered+2010"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Supertramp+The+Logical+Song+-+Remastered+2010"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Supertramp+The+Logical+Song+-+Remastered+2010+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "The Sound of Silence",
@@ -7215,7 +8989,17 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Disturbed+The+Sound+of+Silence"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Disturbed+The+Sound+of+Silence"
+        ],
+        "youtube": [],
+        "spotify": []
+      }
     },
     {
       "title": "The Unforgiven",
@@ -7255,7 +9039,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Metallica+The+Unforgiven"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Metallica+The+Unforgiven+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Metallica%20The%20Unforgiven"
+        ]
+      }
     },
     {
       "title": "Time",
@@ -7305,7 +9101,19 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Hans+Zimmer+Time"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Hans+Zimmer+Time"
+        ],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Hans%20Zimmer%20Time"
+        ]
+      }
     },
     {
       "title": "Tive Razão",
@@ -7358,7 +9166,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Seu+Jorge+Tive+Raz%C3%A3o"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Seu+Jorge+Tive+Raz%C3%A3o+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Tô Sem Você",
@@ -7418,7 +9236,17 @@
       "tags": [
         "aula",
         "prática"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=M%C3%A3eana+T%C3%B4+Sem+Voc%C3%AA"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=M%C3%A3eana+T%C3%B4+Sem+Voc%C3%AA"
+        ],
+        "youtube": [],
+        "spotify": []
+      }
     },
     {
       "title": "Torn",
@@ -7458,7 +9286,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Natalie+Imbruglia+Torn"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Natalie+Imbruglia+Torn+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Natalie%20Imbruglia%20Torn"
+        ]
+      }
     },
     {
       "title": "Trem-Bala",
@@ -7498,7 +9338,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Ana+Vilela+Trem-Bala"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Ana+Vilela+Trem-Bala+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Ana%20Vilela%20Trem-Bala"
+        ]
+      }
     },
     {
       "title": "Tribo da Lua",
@@ -7551,7 +9403,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Dazaranha+Tribo+da+Lua"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Dazaranha+Tribo+da+Lua+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "True Colors - Film Version",
@@ -7599,7 +9461,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Anna+Kendrick%2C+Justin+Timberlake+True+Colors+-+Film+Version"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Anna+Kendrick%2C+Justin+Timberlake+True+Colors+-+Film+Version"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Anna+Kendrick%2C+Justin+Timberlake+True+Colors+-+Film+Version+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Tudo Vai Dar Certo",
@@ -7639,7 +9513,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Natiruts+Tudo+Vai+Dar+Certo"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Natiruts+Tudo+Vai+Dar+Certo+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Natiruts%20Tudo%20Vai%20Dar%20Certo"
+        ]
+      }
     },
     {
       "title": "Upside Down",
@@ -7690,7 +9576,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Jack+Johnson+Upside+Down"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Jack%20Johnson%20Upside%20Down"
+        ]
+      }
     },
     {
       "title": "Vagabundo Confesso",
@@ -7730,7 +9626,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Dazaranha+Vagabundo+Confesso"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Dazaranha+Vagabundo+Confesso+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Dazaranha%20Vagabundo%20Confesso"
+        ]
+      }
     },
     {
       "title": "Vai Na Fé",
@@ -7778,7 +9686,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Vitor+Kley+Vai+Na+F%C3%A9"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Vitor+Kley+Vai+Na+F%C3%A9"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Vitor+Kley+Vai+Na+F%C3%A9+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Vapor Barato",
@@ -7830,7 +9750,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=O+Rappa+Vapor+Barato"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=O+Rappa+Vapor+Barato+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Várias Queixas",
@@ -7892,7 +9822,15 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Gilsons+V%C3%A1rias+Queixas"
+        ],
+        "youtube": [],
+        "spotify": []
+      }
     },
     {
       "title": "Velha Infância",
@@ -7932,7 +9870,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Tribalistas+Velha+Inf%C3%A2ncia"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Tribalistas+Velha+Inf%C3%A2ncia+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Tribalistas%20Velha%20Inf%C3%A2ncia"
+        ]
+      }
     },
     {
       "title": "Vento Alecrim",
@@ -7980,7 +9930,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Gilsons+Vento+Alecrim"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Gilsons+Vento+Alecrim"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Gilsons+Vento+Alecrim+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Você",
@@ -8020,7 +9982,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Tim+Maia+Voc%C3%AA"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Tim+Maia+Voc%C3%AA+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Tim%20Maia%20Voc%C3%AA"
+        ]
+      }
     },
     {
       "title": "Você mentiu",
@@ -8068,7 +10042,19 @@
       "statusConfidence": "média",
       "tags": [
         "backlog"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Anitta%2C+Caetano+Veloso+Voc%C3%AA+mentiu"
+        ],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Anitta%2C+Caetano+Veloso+Voc%C3%AA+mentiu"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Anitta%2C+Caetano+Veloso+Voc%C3%AA+mentiu+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Wanted Dead Or Alive",
@@ -8108,7 +10094,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Bon+Jovi+Wanted+Dead+Or+Alive"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Bon+Jovi+Wanted+Dead+Or+Alive+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Bon%20Jovi%20Wanted%20Dead%20Or%20Alive"
+        ]
+      }
     },
     {
       "title": "What a Wonderful World",
@@ -8160,7 +10158,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=Israel+Kamakawiwo'ole+What+a+Wonderful+World"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Israel+Kamakawiwo'ole+What+a+Wonderful+World+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "What's Up",
@@ -8200,7 +10208,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=4+Non+Blondes+What's+Up"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=4+Non+Blondes+What's+Up+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/4%20Non%20Blondes%20What's%20Up"
+        ]
+      }
     },
     {
       "title": "When I Come Around",
@@ -8251,7 +10271,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Green+Day+When+I+Come+Around"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [],
+        "spotify": [
+          "https://open.spotify.com/search/Green%20Day%20When%20I%20Come%20Around"
+        ]
+      }
     },
     {
       "title": "Wild World",
@@ -8303,7 +10333,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Cat+Stevens+(Yusuf+Islam)+Wild+World"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Cat+Stevens+(Yusuf+Islam)+Wild+World+guitar+lesson"
+        ],
+        "spotify": []
+      }
     },
     {
       "title": "Wish You Were Here",
@@ -8343,7 +10383,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [
+          "https://www.cifraclub.com.br/?q=Pink+Floyd+Wish+You+Were+Here"
+        ],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Pink+Floyd+Wish+You+Were+Here+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Pink%20Floyd%20Wish%20You%20Were%20Here"
+        ]
+      }
     },
     {
       "title": "Wonderwall",
@@ -8386,7 +10438,17 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Oasis+Wonderwall+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/Oasis%20Wonderwall"
+        ]
+      }
     },
     {
       "title": "Zombie",
@@ -8426,7 +10488,19 @@
       "statusConfidence": "alta",
       "tags": [
         "repertório"
-      ]
+      ],
+      "lookupUrls": {
+        "cifraClub": [],
+        "ultimateGuitar": [
+          "https://www.ultimate-guitar.com/search.php?search_type=title&value=The+Cranberries+Zombie"
+        ],
+        "youtube": [
+          "https://www.youtube.com/results?search_query=The+Cranberries+Zombie+guitar+lesson"
+        ],
+        "spotify": [
+          "https://open.spotify.com/search/The%20Cranberries%20Zombie"
+        ]
+      }
     }
   ]
 }
