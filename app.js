@@ -1,6 +1,7 @@
 const STORAGE_KEY = "playlist-tabs-bridge-state-v1";
 const SPOTIFY_CLIENT_KEY = "playlist-tabs-bridge-spotify-client-id";
 const SPOTIFY_TOKEN_KEY = "playlist-tabs-bridge-spotify-token";
+const DEFAULT_SPOTIFY_CLIENT_ID = "1b70bc8f5c3645a394da45a14c2429b3";
 
 const SAMPLE_SONGS = [
   {"title": "O Sol", "artist": "Vitor Kley", "style": "Pop", "cifraClubUrl": "https://www.cifraclub.com.br/vitor-kley/o-sol/"},
@@ -176,7 +177,7 @@ class PlaylistTabsBridge {
     }
 
     restoreSpotifyClientId() {
-        const clientId = localStorage.getItem(SPOTIFY_CLIENT_KEY) || "";
+        const clientId = localStorage.getItem(SPOTIFY_CLIENT_KEY) || DEFAULT_SPOTIFY_CLIENT_ID;
         this.spotifyClientIdEl.value = clientId;
     }
 
