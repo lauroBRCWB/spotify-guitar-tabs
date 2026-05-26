@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch YouTube Playlist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f6f1e8;
+            --panel: #fffaf2;
+            --panel-strong: #f2e7d7;
+            --ink: #1d2b28;
+            --muted: #61706c;
+            --border: #d7cab7;
+            --cifra: #da6d2f;
+            --ug: #d3a917;
+            --youtube: #ff0000;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: "Space Grotesk", sans-serif;
+            color: var(--ink);
+            background: var(--bg);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h1 { margin: 0 0 8px; }
+        .subtitle { color: var(--muted); margin: 0 0 20px; }
+        .btn {
+            padding: 14px 28px;
+            border: none;
+            border-radius: 10px;
+            font: inherit;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 1rem;
+        }
+        .btn-youtube {
+            background: var(--youtube);
+            color: white;
+        }
+        .btn-youtube:hover {
+            background: #cc0000;
+        }
+        .panel {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+        .panel h2 {
+            margin: 0 0 16px;
+            font-size: 1.2rem;
+        }
+        .field {
+            margin-bottom: 16px;
+        }
+        .field label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--muted);
+        }
+        input {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            font: inherit;
+        }
+        .instructions {
+            background: var(--panel-strong);
+            padding: 16px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .instructions ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .song-item {
+            padding: 16px;
+            border-bottom: 1px solid var(--border);
+        }
+        .song-item:last-child {
+            border-bottom: none;
+        }
+        .song-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .song-artist {
+            color: var(--muted);
+            margin-bottom: 12px;
+        }
+        .search-links {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .search-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        .link-cifra {
+            background: rgba(218, 109, 47, 0.15);
+            color: var(--cifra);
+        }
+        .link-ug {
+            background: rgba(211, 169, 23, 0.15);
+            color: #b8941d;
+        }
+        .link-youtube {
+            background: rgba(255, 0, 0, 0.15);
+            color: var(--youtube);
+        }
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 12px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+        .btn-secondary {
+            background: var(--panel-strong);
+            color: var(--ink);
+            margin-top: 10px;
+        }
+        #status {
+            text-align: center;
+            padding: 40px;
+            color: var(--muted);
+        }
+        .api-key-help {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 16px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .api-key-help h3 {
+            margin: 0 0 10px;
+            color: #856404;
+        }
+        .api-key-help ol {
+            margin: 0;
+            padding-left: 20px;
+            color: #856404;
+        }
+        .api-key-help li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📺 Fetch YouTube Playlist</h1>
+            <p class="subtitle">Fetch songs from YouTube playlist and find tabs</p>
+        </header>
+
+        <div class="api-key-help">
+            <h3>⚠️ YouTube API Key Required</h3>
+            <ol>
+                <li>Go to <a href="https://console.cloud.google.com/" target="_blank">Google Cloud Console</a></li>
+                <li>Create a new project</li>
+                <li>Enable YouTube Data API v3</li>
+                <li>Create API credentials (API Key)</li>
+                <li>Paste your API key below</li>
+            </ol>
+        </div>
+
+        <div class="panel">
+            <h2>Configuration</h2>
+            <div class="field">
+                <label for="apiKey">YouTube API Key</label>
+                <input type="text" id="apiKey" placeholder="Paste your YouTube API key here">
+            </div>
+            <div class="field">
+                <label for="playlistId">YouTube Playlist ID</label>
+                <input type="text" id="playlistId" value="PLf7ayjqcbk-2HApJ5o8lhXI5jvKSCqsqY" placeholder="e.g., PLf7ayjqcbk-2HApJ5o8lhXI5jvKSCqsqY">
+            </div>
+            <button class="btn btn-youtube" onclick="fetchPlaylist()">Fetch Playlist</button>
+        </div>
+
+        <div id="status"></div>
+
+        <div class="panel" id="resultsPanel" style="display: none;">
+            <h2>Songs from Playlist <span id="songCount"></span></h2>
+            <div id="songsList"></div>
+            
+            <div style="margin-top: 20px; padding-top: 20px; border-top: 2px solid var(--border);">
+                <h3>Export for Admin</h3>
+                <textarea id="exportJson" readonly></textarea>
+                <button class="btn btn-secondary" onclick="copyExport()">Copy to Clipboard</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const YOUTUBE_API_BASE = 'https://www.googleapis.com/youtube/v3';
+
+        async function fetchPlaylist() {
+            const apiKey = document.getElementById('apiKey').value.trim();
+            const playlistId = document.getElementById('playlistId').value.trim();
+            
+            if (!apiKey || !playlistId) {
+                alert('Please enter both API Key and Playlist ID');
+                return;
+            }
+
+            document.getElementById('status').textContent = 'Fetching playlist...';
+            
+            try {
+                const response = await fetch(`${YOUTUBE_API_BASE}/playlistItems?part=snippet&maxResults=50&playlistId=${playlistId}&key=${apiKey}`);
+                
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.error?.message || 'Failed to fetch playlist');
+                }
+                
+                const data = await response.json();
+                const songs = data.items.map(item => ({
+                    title: item.snippet.title,
+                    artist: 'Unknown', // YouTube doesn't provide artist info
+                    youtubeUrl: `https://youtube.com/watch?v=${item.snippet.resourceId.videoId}`,
+                    videoId: item.snippet.resourceId.videoId
+                }));
+                
+                renderSongs(songs);
+                document.getElementById('status').style.display = 'none';
+                document.getElementById('resultsPanel').style.display = 'block';
+                
+            } catch (error) {
+                document.getElementById('status').textContent = 'Error: ' + error.message;
+            }
+        }
+
+        function generateSearchUrls(song) {
+            const encodedTitle = encodeURIComponent(song.title);
+            return {
+                cifraClub: `https://www.cifraclub.com.br/busca/?q=${encodedTitle}`,
+                ultimateGuitar: `https://www.ultimate-guitar.com/search.php?search_type=title&value=${encodedTitle}`
+            };
+        }
+
+        function renderSongs(songs) {
+            const container = document.getElementById('songsList');
+            document.getElementById('songCount').textContent = `(${songs.length})`;
+            
+            container.innerHTML = songs.map((song, index) => {
+                const urls = generateSearchUrls(song);
+                return `
+                    <div class="song-item">
+                        <div class="song-title">${escapeHtml(song.title)}</div>
+                        <div class="search-links">
+                            <a href="${song.youtubeUrl}" target="_blank" class="search-link link-youtube">📺 YouTube</a>
+                            <a href="${urls.cifraClub}" target="_blank" class="search-link link-cifra">🎸 Search Cifra Club</a>
+                            <a href="${urls.ultimateGuitar}" target="_blank" class="search-link link-ug">🎼 Search UG</a>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            // Generate export JSON
+            const exportSongs = songs.map(s => ({
+                title: s.title,
+                artist: s.artist,
+                style: 'Unknown',
+                youtubeUrl: s.youtubeUrl
+            }));
+            document.getElementById('exportJson').value = JSON.stringify(exportSongs, null, 2);
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function copyExport() {
+            const textarea = document.getElementById('exportJson');
+            textarea.select();
+            document.execCommand('copy');
+            alert('Copied! Now paste into admin.html to add these songs.');
+        }
+    </script>
+</body>
+</html>
