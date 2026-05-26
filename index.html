@@ -1,116 +1,291 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lauro's Guitar Tabs</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guitar play v5</title>
+<style>
+:root{--bg:#101419;--panel:#17202a;--text:#eef2f7;--muted:#9aa8b8;--line:rgba(154,168,184,.24);--blue:#46b3ff;--green:#2dd47f;--yellow:#f0b429;--red:#fb7185;--purple:#b196ff;--ink:#07111f}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#101419,#18212c 42%,#101419);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:inherit;text-decoration:none}
+.app{width:min(1480px,calc(100vw - 28px));margin:auto;padding:26px 0 52px}
+.hero,.card{border:1px solid var(--line);border-radius:8px;background:rgba(23,32,42,.82);box-shadow:0 20px 65px rgba(0,0,0,.28)}
+.hero{padding:26px 30px;margin-bottom:16px}
+.eyebrow{color:#bae6fd;font-weight:850;text-transform:uppercase;letter-spacing:.055em;font-size:12px;margin-bottom:10px}
+h1{font-size:clamp(34px,5vw,58px);line-height:1;margin:0 0 12px}
+.lead{color:var(--muted);line-height:1.6;max-width:980px}
+.row{display:flex;flex-wrap:wrap;gap:8px}
+.playlists{margin-top:16px}
+.pill,.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(56,189,248,.25);background:rgba(56,189,248,.10);color:#bae6fd;border-radius:999px;padding:9px 12px;font-weight:850;font-size:12px;cursor:pointer}
+.btn{border-radius:8px;color:var(--text);background:rgba(154,168,184,.11);border-color:var(--line);min-height:44px}
+.btn.primary{border:0;color:var(--ink);background:var(--green)}
+.stats{display:grid;grid-template-columns:repeat(8,1fr);gap:10px;margin-bottom:16px}
+.stat{border:1px solid var(--line);background:rgba(23,32,42,.7);border-radius:8px;padding:14px;text-align:left}
+.stat[data-filter]{cursor:pointer}
+.stat[data-filter]:hover{border-color:rgba(70,179,255,.45);background:rgba(70,179,255,.08)}
+.stat strong{display:block;font-size:26px;line-height:1;margin-bottom:7px}
+.stat span{color:var(--muted);font-size:12px}
+.toolbar{position:sticky;top:0;z-index:5;display:grid;grid-template-columns:1.35fr .58fr .62fr .62fr .62fr .62fr auto auto;gap:10px;margin-bottom:16px;padding:10px 0;background:rgba(16,20,25,.94);backdrop-filter:blur(12px)}
+label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:0 0 6px 2px;font-weight:850}
+input,select{width:100%;min-height:44px;border:1px solid var(--line);border-radius:8px;background:rgba(16,20,25,.92);color:var(--text);padding:11px;outline:none;font:inherit}
+input:focus,select:focus,.btn:focus-visible,.pill:focus-visible,.link:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.head{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:16px 18px;border-bottom:1px solid var(--line);background:rgba(15,23,42,.64)}
+.head h2{margin:0 0 3px;font-size:17px}
+.muted{color:var(--muted);font-size:13px}
+.wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:1420px}
+th{text-align:left;padding:12px 13px;color:var(--muted);background:rgba(18,25,33,.96);font-size:11px;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--line);white-space:nowrap;position:sticky;top:64px;z-index:2}
+td{padding:13px;vertical-align:top;border-bottom:1px solid rgba(148,163,184,.14)}
+tr:hover td{background:rgba(56,189,248,.04)}
+.song{font-weight:900;letter-spacing:-.015em;margin-bottom:4px}
+.small{color:var(--muted);font-size:12px;line-height:1.42}
+.chip{display:inline-flex;align-items:center;border-radius:999px;padding:7px 9px;background:rgba(148,163,184,.13);border:1px solid rgba(148,163,184,.17);color:#dbeafe;font-size:12px;font-weight:800;line-height:1;white-space:nowrap}
+.ok{color:#bbf7d0;border-color:rgba(34,197,94,.22);background:rgba(34,197,94,.12)}
+.warn{color:#fde68a;border-color:rgba(245,158,11,.22);background:rgba(245,158,11,.13)}
+.bad{color:#fecdd3;border-color:rgba(251,113,133,.22);background:rgba(251,113,133,.12)}
+.lesson{color:#ddd6fe;border-color:rgba(167,139,250,.22);background:rgba(167,139,250,.12)}
+.link{display:inline-flex;border-radius:10px;padding:8px 9px;border:1px solid rgba(56,189,248,.19);background:rgba(56,189,248,.1);color:#bae6fd;font-size:12px;font-weight:850;white-space:nowrap}
+.spotify{color:#bbf7d0;border-color:rgba(34,197,94,.22);background:rgba(34,197,94,.11)}
+.youtube{color:#fecaca;border-color:rgba(248,113,113,.22);background:rgba(248,113,113,.10)}
+.ug{color:#ddd6fe;border-color:rgba(167,139,250,.22);background:rgba(167,139,250,.10)}
+.empty{text-align:center;padding:34px;color:var(--muted)}
+details{margin-top:16px}
+summary{cursor:pointer;padding:14px 16px;font-weight:850;color:#dbeafe}
+pre{white-space:pre-wrap;overflow-x:auto;color:#cbd5e1;padding:0 16px 16px;margin:0;font-size:12px;line-height:1.5}
+@media(max-width:1320px){.stats{grid-template-columns:repeat(4,1fr)}.toolbar{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.app{width:min(100vw - 18px,1480px);padding-top:10px}.hero{padding:21px}.stats,.toolbar{grid-template-columns:1fr}.toolbar{position:static}.head{align-items:flex-start;flex-direction:column}th{top:0}}
+</style>
 </head>
 <body>
-    <div class="page-shell">
-        <header class="hero">
-            <div class="hero-copy">
-                <p class="eyebrow">🎸 Lauro's Repertoire</p>
-                <h1>101 Songs — Cifra Club + Ultimate Guitar</h1>
-                <p class="lede">
-                    Complete guitar tabs collection. Filter by style, artist, or search.
-                    Click any link to open tabs.
-                </p>
-            </div>
-            <div class="hero-panel">
-                <div class="stat">
-                    <span class="stat-label">Total Songs</span>
-                    <strong id="songCount">101</strong>
-                </div>
-                <div class="stat">
-                    <span class="stat-label">Cifra Club</span>
-                    <strong>63</strong>
-                </div>
-                <div class="stat">
-                    <span class="stat-label">Ultimate Guitar</span>
-                    <strong>38</strong>
-                </div>
-                <div class="stat">
-                    <span class="stat-label">YouTube</span>
-                    <strong id="youtubeCount">0</strong>
-                </div>
-            </div>
-        </header>
+<main class="app">
+<section class="hero">
+<div class="eyebrow">Guitar play v5</div>
+<h1>Uma linha por música</h1>
+<p class="lead">Versões, covers, aulas, cifras duplicadas e links alternativos ficam agrupados dentro da mesma música. <strong>Toco</strong> significa que existe Cifra Club ou Ultimate Guitar; Spotify e YouTube sem cifra entram como <strong>quero aprender</strong>.</p>
+<div class="row playlists" id="playlists"></div>
+</section>
 
-        <main class="layout">
-            <section class="panel">
-                <div class="section-heading">
-                    <h2>Filters</h2>
-                </div>
+<section class="stats" id="stats"></section>
 
-                <div class="filters">
-                    <label class="field-stack field-wide" for="searchInput">
-                        <span>Search</span>
-                        <input id="searchInput" type="text" placeholder="Song, artist, or style">
-                    </label>
-                    <label class="field-stack" for="styleFilter">
-                        <span>Style</span>
-                        <select id="styleFilter">
-                            <option value="">All styles</option>
-                        </select>
-                    </label>
-                    <label class="field-stack" for="artistFilter">
-                        <span>Artist</span>
-                        <select id="artistFilter">
-                            <option value="">All artists</option>
-                        </select>
-                    </label>
-                    <label class="field-stack" for="sourceFilter">
-                        <span>Source</span>
-                        <select id="sourceFilter">
-                            <option value="">All</option>
-                            <option value="cifraclub">Cifra Club</option>
-                            <option value="ultimate-guitar">Ultimate Guitar</option>
-                            <option value="youtube">YouTube</option>
-                            <option value="spotify">Spotify</option>
-                        </select>
-                    </label>
-                </div>
+<section class="toolbar">
+<div><label>Busca livre</label><input id="q" type="search" placeholder="Música, autor, status, fonte, link..."></div>
+<div><label>Status</label><select id="status"><option value="">Todos</option><option>toco</option><option>quero aprender</option><option>referência</option></select></div>
+<div><label>Estilo</label><select id="style"></select></div>
+<div><label>Autor</label><select id="artist"></select></div>
+<div><label>Fonte</label><select id="source"><option value="">Todas</option><option value="spotify">Spotify</option><option value="youtube">YouTube</option><option value="cifraClub">Cifra Club</option><option value="ultimateGuitar">Ultimate Guitar</option></select></div>
+<div><label>Delta</label><select id="delta"><option value="">Todos</option><option value="spotify-no-tab">Spotify sem cifra</option><option value="spotify-with-tab">Spotify com cifra</option><option value="tab-no-spotify">Cifra fora do Spotify</option><option value="youtube-no-tab">YouTube sem cifra</option><option value="youtube-with-tab">YouTube com cifra</option><option value="multi-links">Múltiplos links</option><option value="no-tab">Sem cifra</option><option value="complete">Spotify + YouTube + cifra</option></select></div>
+<button class="btn" id="reset" type="button">Limpar</button>
+<button class="btn primary" id="csv" type="button">Exportar CSV</button>
+</section>
 
-                <div class="toolbar">
-                    <p id="statusText" class="status-text">101 songs loaded</p>
-                </div>
-            </section>
+<section class="card">
+<div class="head"><div><h2>Catálogo</h2><div class="muted" id="count"></div></div><div class="row" id="active"></div></div>
+<div class="wrap"><table><thead><tr><th>Status</th><th>Música</th><th>Autores</th><th>Estilo</th><th>Fontes</th><th>Links</th><th>Delta</th><th>Variantes/notas</th></tr></thead><tbody id="rows"></tbody></table></div>
+<div id="empty" class="empty" hidden>Nenhum item encontrado.</div>
+</section>
 
-            <section class="panel">
-                <div class="section-heading">
-                    <h2>Song List</h2>
-                    <p id="resultText">101 songs</p>
-                </div>
+<details class="card"><summary>Ver JSON carregado</summary><pre id="json"></pre></details>
+</main>
 
-                <div class="table-wrap">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Song</th>
-                                <th>Artist</th>
-                                <th>Style</th>
-                                <th>Links</th>
-                            </tr>
-                        </thead>
-                        <tbody id="songsTableBody"></tbody>
-                    </table>
-                </div>
-                <div id="emptyState" class="empty-state" hidden>
-                    <p>No songs match the current filters.</p>
-                </div>
-            </section>
-        </main>
+<script>
+let APP_DATA = null;
+let songs = [];
+const DATA_URL = "guitar-play-data.json";
+const FIELDS = {spotify:"spotifyUrls", youtube:"youtubeUrls", cifraClub:"cifraClubUrls", ultimateGuitar:"ultimateGuitarUrls"};
+const LABELS = {spotify:"Spotify", youtube:"YouTube", cifraClub:"Cifra Club", ultimateGuitar:"Ultimate Guitar"};
+const el = {
+  q:document.getElementById("q"), status:document.getElementById("status"), style:document.getElementById("style"),
+  artist:document.getElementById("artist"), source:document.getElementById("source"), delta:document.getElementById("delta"),
+  reset:document.getElementById("reset"), csv:document.getElementById("csv"), rows:document.getElementById("rows"),
+  empty:document.getElementById("empty"), count:document.getElementById("count"), active:document.getElementById("active"),
+  stats:document.getElementById("stats"), playlists:document.getElementById("playlists"), json:document.getElementById("json")
+};
 
-        <footer class="panel panel-notes">
-            <p>🔗 <a href="https://www.cifraclub.com.br/musico/46019570/repertorio/5936760/" target="_blank">Cifra Club Repertoire</a> | 
-               <a href="https://github.com/lauroBRCWB/spotify-guitar-tabs" target="_blank">GitHub Repo</a></p>
-        </footer>
-    </div>
+function esc(x){return String(x ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");}
+function norm(x){return String(x || "").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").replace(/\s+/g," ").trim();}
+function uniq(a){return [...new Set((a || []).filter(Boolean))];}
+function blob(s){
+  return norm([s.status,s.statusConfidence,s.canonicalTitle,s.title,...(s.titleVariants||[]),s.artist,...(s.artists||[]),s.style,...(s.sources||[]),...(s.tags||[]),...(s.notes||[]),...(s.spotifyUrls||[]),...(s.youtubeUrls||[]),...(s.cifraClubUrls||[]),...(s.ultimateGuitarUrls||[])].join(" "));
+}
+function derivedStatus(s){
+  if((s.cifraClubUrls || []).length || (s.ultimateGuitarUrls || []).length) return "toco";
+  if((s.youtubeUrls || []).length || (s.spotifyUrls || []).length) return "quero aprender";
+  return "referência";
+}
+function prepareSongs(data){
+  return (data.songs || []).map(s => ({...s, status:derivedStatus(s), blob:blob({...s,status:derivedStatus(s)})}));
+}
 
-    <script src="app.js"></script>
+function fillOptions(sel,label,vals){
+  const cur = sel.value;
+  sel.innerHTML = `<option value="">${esc(label)}</option>` + vals.map(v => `<option>${esc(v)}</option>`).join("");
+  if(vals.includes(cur)) sel.value = cur;
+}
+function setup(){
+  fillOptions(el.style,"Todos os estilos",uniq(songs.map(s => s.style || "Unclassified")).sort((a,b)=>a.localeCompare(b,"pt-BR")));
+  fillOptions(el.artist,"Todos os autores",uniq(songs.flatMap(s => s.artists && s.artists.length ? s.artists : [s.artist])).sort((a,b)=>a.localeCompare(b,"pt-BR")));
+}
+function renderStats(){
+  const c = songs.reduce((acc,song) => {
+    acc[song.status] = (acc[song.status] || 0) + 1;
+    return acc;
+  }, {});
+  const sourceCount = source => songs.filter(song => has(song,source)).length;
+  const cards = [
+    ["Músicas únicas",songs.length,""],["Toco",c.toco||0,"toco"],["Quero aprender",c["quero aprender"]||0,"quero aprender"],["Referência",c["referência"]||0,"referência"],
+    ["Com Spotify",sourceCount("spotify"),"source:spotify"],["Com YouTube",sourceCount("youtube"),"source:youtube"],["Com Cifra Club",sourceCount("cifraClub"),"source:cifraClub"],["Com Ultimate Guitar",sourceCount("ultimateGuitar"),"source:ultimateGuitar"]
+  ];
+  el.stats.innerHTML = cards.map(([l,v,f]) => `<button class="stat" type="button" data-filter="${esc(f)}"><strong>${v}</strong><span>${esc(l)}</span></button>`).join("");
+  el.stats.querySelectorAll("[data-filter]").forEach(card => {
+    card.onclick = () => {
+      const f = card.dataset.filter;
+      if(!f){el.status.value = ""; el.source.value = "";}
+      else if(f.startsWith("source:")){el.source.value = f.split(":")[1]; el.status.value = "";}
+      else{el.status.value = f; el.source.value = "";}
+      render();
+    };
+  });
+}
+function renderPlaylists(){
+  const m = APP_DATA.meta;
+  const items = [["Spotify playlist",m.spotifyPlaylistUrl,"spotify"],["YouTube playlist",m.youtubePlaylistUrl,"youtube"]];
+  el.playlists.innerHTML = items.filter(x => x[1]).map(([l,u,c]) => `<a class="pill ${c}" href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(l)}</a>`).join("");
+}
+function has(s,source){return (s[FIELDS[source]] || []).length > 0;}
+function matchDelta(s,d){
+  const sp = has(s,"spotify"), yt = has(s,"youtube"), tab = has(s,"cifraClub") || has(s,"ultimateGuitar");
+  const linkCount = ["spotifyUrls","youtubeUrls","cifraClubUrls","ultimateGuitarUrls"].reduce((n,f) => n + (s[f] || []).length, 0);
+  if(!d) return true;
+  if(d === "spotify-no-tab") return sp && !tab;
+  if(d === "spotify-with-tab") return sp && tab;
+  if(d === "tab-no-spotify") return tab && !sp;
+  if(d === "youtube-no-tab") return yt && !tab;
+  if(d === "youtube-with-tab") return yt && tab;
+  if(d === "multi-links") return linkCount > 1;
+  if(d === "no-tab") return !tab;
+  if(d === "complete") return sp && yt && tab;
+  return true;
+}
+function filtered(){
+  const q = norm(el.q.value), st = el.status.value, style = el.style.value, artist = el.artist.value, src = el.source.value, d = el.delta.value;
+  return songs.filter(s => {
+    if(q && !s.blob.includes(q)) return false;
+    if(st && s.status !== st) return false;
+    if(style && s.style !== style) return false;
+    if(artist && !(s.artists || [s.artist]).includes(artist)) return false;
+    if(src && !has(s,src)) return false;
+    return matchDelta(s,d);
+  });
+}
+function chips(items,cls=""){
+  items = items || [];
+  return items.length ? `<div class="row">${items.map(i => `<span class="chip ${cls}">${esc(i)}</span>`).join("")}</div>` : `<span class="chip bad">Nenhuma</span>`;
+}
+function statusChip(s){
+  const cls = s.status === "referência" ? "lesson" : s.status === "quero aprender" ? "warn" : s.status === "toco" ? "ok" : "";
+  return `<span class="chip ${cls}">${esc(s.status)}</span><div class="small">confiança: ${esc(s.statusConfidence)}</div>`;
+}
+function linkList(s){
+  const links = [];
+  (s.spotifyUrls || []).forEach((u,i) => links.push(["Spotify" + ((s.spotifyUrls || []).length > 1 ? ` ${i+1}` : ""),u,"spotify"]));
+  (s.youtubeUrls || []).forEach((u,i) => links.push(["YouTube" + ((s.youtubeUrls || []).length > 1 ? ` ${i+1}` : ""),u,"youtube"]));
+  (s.cifraClubUrls || []).forEach((u,i) => links.push(["Cifra Club" + ((s.cifraClubUrls || []).length > 1 ? ` ${i+1}` : ""),u,""]));
+  (s.ultimateGuitarUrls || []).forEach((u,i) => links.push(["Ultimate Guitar" + ((s.ultimateGuitarUrls || []).length > 1 ? ` ${i+1}` : ""),u,"ug"]));
+  return links.length ? `<div class="row">${links.map(([l,u,c]) => `<a class="link ${c}" href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(l)}</a>`).join("")}</div>` : `<span class="chip bad">Sem link</span>`;
+}
+function deltaCell(s){
+  const out = [];
+  if(!has(s,"spotify")) out.push(["Sem Spotify","warn"]);
+  if(!has(s,"youtube")) out.push(["Sem YouTube","warn"]);
+  if(!has(s,"cifraClub")) out.push(["Sem Cifra Club","warn"]);
+  if(!has(s,"ultimateGuitar")) out.push(["Sem Ultimate Guitar","warn"]);
+  if(has(s,"spotify") && has(s,"youtube") && (has(s,"cifraClub") || has(s,"ultimateGuitar"))) out.unshift(["Completa prática","ok"]);
+  if((s.linkCount || 0) > 1) out.push(["Múltiplos links","ok"]);
+  return `<div class="row">${out.map(([l,c]) => `<span class="chip ${c}">${esc(l)}</span>`).join("")}</div>`;
+}
+function notes(s){
+  const n = [];
+  if((s.titleVariants || []).length > 1) n.push("títulos: " + s.titleVariants.slice(0,5).join(" | "));
+  if((s.artists || []).length > 1) n.push("artistas: " + s.artists.slice(0,5).join(" | "));
+  if(s.tags) n.push("tags: " + s.tags.join(", "));
+  if(s.notes) n.push(...s.notes);
+  return n.length ? `<div class="small">${esc(uniq(n).slice(0,4).join(" · "))}</div>` : `<div class="small">—</div>`;
+}
+function render(){
+  const rows = filtered();
+  el.rows.innerHTML = rows.map(s => `<tr>
+    <td>${statusChip(s)}</td>
+    <td><div class="song">${esc(s.title)}</div><div class="small">${esc(s.canonicalTitle || "")}</div></td>
+    <td>${esc((s.artists || [s.artist]).join(" / "))}</td>
+    <td>${chips([s.style || "Unclassified"])}</td>
+    <td>${chips(s.sources)}</td>
+    <td>${linkList(s)}</td>
+    <td>${deltaCell(s)}</td>
+    <td>${notes(s)}</td>
+  </tr>`).join("");
+  el.empty.hidden = rows.length > 0;
+  el.count.textContent = `Mostrando ${rows.length} de ${songs.length} músicas únicas`;
+  const active = [];
+  if(el.q.value) active.push("Texto: " + el.q.value);
+  if(el.status.value) active.push("Status: " + el.status.value);
+  if(el.style.value) active.push("Estilo: " + el.style.value);
+  if(el.artist.value) active.push("Autor: " + el.artist.value);
+  if(el.source.value) active.push("Fonte: " + LABELS[el.source.value]);
+  if(el.delta.value) active.push("Delta: " + el.delta.options[el.delta.selectedIndex].text);
+  el.active.innerHTML = active.length ? active.map(x => `<span class="chip ok">${esc(x)}</span>`).join("") : `<span class="chip">Sem filtros ativos</span>`;
+}
+function exportCsv(){
+  const rows = filtered();
+  const head = ["status","title","artist","style","sources","spotifyUrls","youtubeUrls","cifraClubUrls","ultimateGuitarUrls"];
+  const csv = [head.join(",")].concat(rows.map(s => head.map(f => {
+    let v = s[f] || "";
+    if(Array.isArray(v)) v = v.join(" | ");
+    return `"${String(v).replaceAll('"','""')}"`;
+  }).join(","))).join("\\n");
+  const b = new Blob([csv],{type:"text/csv;charset=utf-8"});
+  const u = URL.createObjectURL(b);
+  const a = document.createElement("a");
+  a.href = u;
+  a.download = "guitar-play-filtered.csv";
+  a.click();
+  URL.revokeObjectURL(u);
+}
+[el.q,el.status,el.style,el.artist,el.source,el.delta].forEach(x => {
+  x.addEventListener("input",render);
+  x.addEventListener("change",render);
+});
+el.reset.onclick = () => {
+  el.q.value = "";
+  el.status.value = "";
+  el.style.value = "";
+  el.artist.value = "";
+  el.source.value = "";
+  el.delta.value = "";
+  render();
+};
+el.csv.onclick = exportCsv;
+async function init(){
+  try{
+    const response = await fetch(DATA_URL,{cache:"no-store"});
+    if(!response.ok) throw new Error(`HTTP ${response.status}`);
+    APP_DATA = await response.json();
+    songs = prepareSongs(APP_DATA);
+    renderPlaylists();
+    renderStats();
+    setup();
+    render();
+    el.json.textContent = JSON.stringify(APP_DATA,null,2);
+  }catch(err){
+    console.error(err);
+    el.rows.innerHTML = "";
+    el.empty.hidden = false;
+    el.empty.textContent = `Não foi possível carregar ${DATA_URL}. Sirva esta pasta com um servidor local ou GitHub Pages.`;
+    el.count.textContent = "Dados não carregados";
+    el.json.textContent = String(err && err.message ? err.message : err);
+  }
+}
+init();
+</script>
 </body>
 </html>

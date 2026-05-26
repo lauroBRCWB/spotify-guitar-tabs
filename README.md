@@ -1,63 +1,26 @@
-# Playlist tabs bridge
+# Guitar play v5
 
-Static web page that merges:
+`guitar-play-data.json` is the master data file.
 
-- a Spotify playlist fetched live through Spotify OAuth
-- a Cifra Club repertoire exported from the browser console
-- an Ultimate Guitar playlist exported from the browser console
+Serve this directory and open `index.html`; the page fetches `guitar-play-data.json`.
 
-## Why import-assisted for the tab sites
+One row per song.
 
-Both of these source URLs are currently blocking automated access from this runtime:
-
-- `https://www.cifraclub.com.br/musico/46019570/repertorio/5936760/`
-- `https://www.ultimate-guitar.com/playlist/shared/7r51e5j9xy19`
-
-That means a truthful implementation cannot promise reliable server-side scraping without a separate browser session or a bespoke proxy that defeats those protections. This app therefore keeps Spotify live and treats the two tab sites as browser-assisted imports.
-
-## Files
-
-- `index.html`: UI
-- `styles.css`: styling
-- `app.js`: merge logic, Spotify OAuth, filtering, export
-- `import-playlists.js`: helper extractors to run inside your own browser on the source sites
-- `serve.py`: simple local static server for testing
-
-## Local run
-
-```bash
-cd /home/openclaw/.openclaw/workspace/spotify-guitar-tabs
-python3 serve.py
+```json
+{
+  "total_unique_songs": 180,
+  "spotify_tracks_exported": 94,
+  "youtube_videos_exported": 30,
+  "songs_with_spotify": 92,
+  "songs_with_youtube": 29,
+  "songs_with_cifra": 62,
+  "songs_with_ultimate": 40,
+  "songs_with_any_tab": 97,
+  "songs_with_multiple_tabs_or_videos": 13,
+  "status_counts": {
+    "quero aprender": 83,
+    "toco": 97,
+    "referência": 0
+  }
+}
 ```
-
-Open `http://localhost:8000`.
-
-## Spotify setup
-
-1. Create an app in the Spotify Developer Dashboard.
-2. Add your deployed URL as a redirect URI.
-3. For local testing, also add `http://localhost:8000`.
-4. Paste the Spotify Client ID into the page and click `Connect Spotify`.
-
-## Importing Cifra Club and Ultimate Guitar
-
-1. Open the target source page in your normal browser session.
-2. Open devtools console.
-3. Paste the relevant function from `import-playlists.js`.
-4. Run:
-   - `PlaylistImporters.extractCifraClubPlaylist()`
-   - `PlaylistImporters.extractUltimateGuitarPlaylist()`
-5. Paste the resulting JSON into the matching import modal in the app.
-
-## Publish
-
-This folder is publish-ready as a static site, but it has not been deployed from this runtime because no deployment target or approval to push external changes was provided.
-
-Any static host works:
-
-- GitHub Pages
-- Netlify
-- Vercel
-- Cloudflare Pages
-
-The only deployment-specific requirement is updating Spotify redirect URIs to match the final domain.
