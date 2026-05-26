@@ -3,24 +3,49 @@ const SPOTIFY_CLIENT_KEY = "playlist-tabs-bridge-spotify-client-id";
 const SPOTIFY_TOKEN_KEY = "playlist-tabs-bridge-spotify-token";
 
 const SAMPLE_SONGS = [
-    {
-        title: "Wonderwall",
-        artist: "Oasis",
-        album: "(What's the Story) Morning Glory?",
-        style: "Rock",
-        spotifyUrl: "https://open.spotify.com/track/5qqabIl2vWzo9ApSC317sa",
-        cifraClubUrl: "https://www.cifraclub.com.br/oasis/wonderwall/",
-        ultimateGuitarUrl: "https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596"
-    },
-    {
-        title: "Tempo perdido",
-        artist: "Legiao Urbana",
-        album: "Dois",
-        style: "Rock brasileiro",
-        spotifyUrl: "https://open.spotify.com/track/2vK5QYG7w4NfJvQ9VkiAz3",
-        cifraClubUrl: "https://www.cifraclub.com.br/legiao-urbana/tempo-perdido/",
-        ultimateGuitarUrl: "https://tabs.ultimate-guitar.com/tab/legiao-urbana/tempo-perdido-chords-1322818"
-    }
+    {"title": "O Sol", "artist": "Vitor Kley", "style": "Pop", "cifraClubUrl": "https://www.cifraclub.com.br/vitor-kley/o-sol/"},
+    {"title": "Zombie", "artist": "The Cranberries", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/the-cranberries/zombie/"},
+    {"title": "Acima do Sol", "artist": "Skank", "style": "Pop Rock", "cifraClubUrl": "https://www.cifraclub.com.br/skank/acima-do-sol/"},
+    {"title": "Pescador de Ilusões", "artist": "O Rappa", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/o-rappa/pescador-de-ilusoes/"},
+    {"title": "Velha Infância", "artist": "Tribalistas", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/tribalistas/velha-infancia/"},
+    {"title": "Anunciação", "artist": "Alceu Valença", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/alceu-valenca/anunciacao/"},
+    {"title": "Trem-Bala", "artist": "Ana Vilela", "style": "Pop", "cifraClubUrl": "https://www.cifraclub.com.br/ana-vilela/trem-bala/"},
+    {"title": "Torn", "artist": "Natalie Imbruglia", "style": "Pop", "cifraClubUrl": "https://www.cifraclub.com.br/natalie-imbruglia/torn/"},
+    {"title": "Good Riddance (Time Of Your Life)", "artist": "Green Day", "style": "Punk Rock", "cifraClubUrl": "https://www.cifraclub.com.br/green-day/good-riddance-time-of-your-life/"},
+    {"title": "O' Children", "artist": "Nick Cave", "style": "Alternative", "cifraClubUrl": "https://www.cifraclub.com.br/nick-cave/o-children/"},
+    {"title": "Bixinho", "artist": "DUDA BEAT", "style": "Pop", "cifraClubUrl": "https://www.cifraclub.com.br/duda-beat/bixinho/"},
+    {"title": "Como Eu Quero", "artist": "Kid Abelha", "style": "Pop Rock", "cifraClubUrl": "https://www.cifraclub.com.br/kid-abelha/como-eu-quero/"},
+    {"title": "Wonderwall", "artist": "Oasis", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/oasis/wonderwall/", "ultimateGuitarUrl": "https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-27596"},
+    {"title": "Save Tonight", "artist": "Eagle-Eye Cherry", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/eagle-eye-cherry/save-tonight/"},
+    {"title": "Linger", "artist": "The Cranberries", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/the-cranberries/linger/"},
+    {"title": "Last Kiss", "artist": "Pearl Jam", "style": "Grunge", "cifraClubUrl": "https://www.cifraclub.com.br/pearl-jam/last-kiss/"},
+    {"title": "Me Namora", "artist": "Natiruts", "style": "Reggae", "cifraClubUrl": "https://www.cifraclub.com.br/natiruts/me-namora/"},
+    {"title": "Lenha", "artist": "Zeca Baleiro", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/zeca-baleiro/lenha/"},
+    {"title": "Já Sei Namorar", "artist": "Tribalistas", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/tribalistas/ja-sei-namorar/"},
+    {"title": "Pra Dizer Adeus", "artist": "Titãs", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/titas/pra-dizer-adeus/"},
+    {"title": "Exagerado", "artist": "Cazuza", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/cazuza/exagerado/"},
+    {"title": "Partilhar", "artist": "Rubel", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/rubel/partilhar/"},
+    {"title": "Kiss From a Rose", "artist": "Seal", "style": "Pop", "cifraClubUrl": "https://www.cifraclub.com.br/seal/kiss-from-a-rose/"},
+    {"title": "O Passageiro", "artist": "Capital Inicial", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/capital-inicial/o-passageiro/"},
+    {"title": "Somewhere Over The Rainbow", "artist": "Israel Kamakawiwo'ole", "style": "Folk", "cifraClubUrl": "https://www.cifraclub.com.br/israel-kamakawiwoole/somewhere-over-the-rainbow/"},
+    {"title": "Always Remember Us This Way", "artist": "Lady Gaga", "style": "Pop", "cifraClubUrl": "https://www.cifraclub.com.br/lady-gaga/always-remember-us-this-way/"},
+    {"title": "Stand By Me", "artist": "The Beatles", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/the-beatles/stand-by-me/"},
+    {"title": "Quarter Past Four", "artist": "Avriel & The Sequoias", "style": "Folk", "cifraClubUrl": "https://www.cifraclub.com.br/avriel-the-sequoias/quarter-past-four/"},
+    {"title": "Barely Breathing", "artist": "Duncan Sheik", "style": "Pop", "cifraClubUrl": "https://www.cifraclub.com.br/duncan-sheik/barely-breathing/"},
+    {"title": "Simple Song", "artist": "Passenger", "style": "Folk", "cifraClubUrl": "https://www.cifraclub.com.br/passenger/simple-song/"},
+    {"title": "Pintinho Amarelinho", "artist": "Galinha Pintadinha", "style": "Children", "cifraClubUrl": "https://www.cifraclub.com.br/galinha-pintadinha/pintinho-amarelinho/"},
+    {"title": "Só Os Loucos Sabem", "artist": "Charlie Brown Jr.", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/charlie-brown-jr/so-os-loucos-sabem/"},
+    {"title": "Minha Felicidade", "artist": "Roberta Campos", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/roberta-campos/minha-felicidade/"},
+    {"title": "Telegrama", "artist": "Zeca Baleiro", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/zeca-baleiro/telegrama/"},
+    {"title": "Tive Razão", "artist": "Seu Jorge", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/seu-jorge/tive-razao/"},
+    {"title": "Tribo da Lua", "artist": "Dazaranha", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/dazaranha/tribo-da-lua/"},
+    {"title": "Vapor Barato", "artist": "O Rappa", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/o-rappa/vapor-barato/"},
+    {"title": "Rodo Cotidiano", "artist": "O Rappa", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/o-rappa/rodo-cotidiano/"},
+    {"title": "Lágrimas e Chuva", "artist": "Kid Abelha", "style": "Pop Rock", "cifraClubUrl": "https://www.cifraclub.com.br/kid-abelha/lagrimas-e-chuva/"},
+    {"title": "Até o Fim", "artist": "Engenheiros do Hawaii", "style": "Rock", "cifraClubUrl": "https://www.cifraclub.com.br/engenheiros-do-hawaii/ate-o-fim/"},
+    {"title": "Garotos II - O Outro Lado", "artist": "Leoni", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/leoni/garotos-ii-o-outro-lado/"},
+    {"title": "What a Wonderful World", "artist": "Israel Kamakawiwo'ole", "style": "Folk", "cifraClubUrl": "https://www.cifraclub.com.br/israel-kamakawiwoole/what-a-wonderful-world/"},
+    {"title": "Proibida Pra Mim", "artist": "Zeca Baleiro", "style": "MPB", "cifraClubUrl": "https://www.cifraclub.com.br/zeca-baleiro/proibida-pra-mim/"}
 ];
 
 class PlaylistTabsBridge {
