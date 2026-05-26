@@ -418,3 +418,57 @@ tbody tr:last-child td {
         padding: 12px;
     }
 }
+
+.link-cc, .link-ug {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.link-cc {
+    background: rgba(218, 109, 47, 0.15);
+    color: var(--cifra);
+}
+
+.link-cc:hover {
+    background: var(--cifra);
+    color: white;
+}
+
+.link-ug {
+    background: rgba(211, 169, 23, 0.15);
+    color: #b8941d;
+}
+
+.link-ug:hover {
+    background: var(--ug);
+    color: white;
+}
+
+.style-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    background: var(--panel-strong);
+    border-radius: 12px;
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: var(--cifra);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
