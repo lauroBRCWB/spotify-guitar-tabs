@@ -151,6 +151,8 @@ class AdminApp {
     const style = document.getElementById('songStyle').value;
     const cifraUrl = document.getElementById('cifraUrl').value.trim();
     const ugUrl = document.getElementById('ugUrl').value.trim();
+    const youtubeUrl = document.getElementById('youtubeUrl').value.trim();
+    const spotifyUrl = document.getElementById('spotifyUrl').value.trim();
 
     if (!title || !artist) {
       alert('Title and Artist are required!');
@@ -160,6 +162,8 @@ class AdminApp {
     const song = { title, artist, style: style || 'Other' };
     if (cifraUrl) song.cifraClubUrl = cifraUrl;
     if (ugUrl) song.ultimateGuitarUrl = ugUrl;
+    if (youtubeUrl) song.youtubeUrl = youtubeUrl;
+    if (spotifyUrl) song.spotifyUrl = spotifyUrl;
 
     this.songs.push(song);
     this.songs.sort((a, b) => a.title.localeCompare(b.title));
@@ -188,6 +192,8 @@ class AdminApp {
     document.getElementById('songStyle').value = '';
     document.getElementById('cifraUrl').value = '';
     document.getElementById('ugUrl').value = '';
+    document.getElementById('youtubeUrl').value = '';
+    document.getElementById('spotifyUrl').value = '';
   }
 
   renderSongList() {
@@ -201,6 +207,8 @@ class AdminApp {
 
     tbody.innerHTML = filtered.map((song, index) => {
       const links = [];
+      if (song.spotifyUrl) links.push('<span class="link-badge link-spotify">S</span>');
+      if (song.youtubeUrl) links.push('<span class="link-badge link-youtube">YT</span>');
       if (song.cifraClubUrl) links.push('<span class="link-badge link-cc">CC</span>');
       if (song.ultimateGuitarUrl) links.push('<span class="link-badge link-ug">UG</span>');
       

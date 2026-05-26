@@ -419,7 +419,7 @@ tbody tr:last-child td {
     }
 }
 
-.link-cc, .link-ug {
+.link-cc, .link-ug, .link-spotify, .link-youtube {
     display: inline-block;
     padding: 6px 12px;
     border-radius: 8px;
@@ -446,6 +446,26 @@ tbody tr:last-child td {
 
 .link-ug:hover {
     background: var(--ug);
+    color: white;
+}
+
+.link-spotify {
+    background: rgba(29, 185, 84, 0.15);
+    color: #1db954;
+}
+
+.link-spotify:hover {
+    background: #1db954;
+    color: white;
+}
+
+.link-youtube {
+    background: rgba(255, 0, 0, 0.15);
+    color: #ff0000;
+}
+
+.link-youtube:hover {
+    background: #ff0000;
     color: white;
 }
 

@@ -164,6 +164,8 @@ class SongApp {
       if (source) {
         if (source === 'cifraclub' && !song.cifraClubUrl) return false;
         if (source === 'ultimate-guitar' && !song.ultimateGuitarUrl) return false;
+        if (source === 'youtube' && !song.youtubeUrl) return false;
+        if (source === 'spotify' && !song.spotifyUrl) return false;
       }
       return true;
     });
@@ -173,6 +175,7 @@ class SongApp {
   
   render() {
     this.resultText.textContent = `${this.filteredSongs.length} songs`;
+    document.getElementById('youtubeCount').textContent = this.songs.filter(s => s.youtubeUrl).length;
     
     if (this.filteredSongs.length === 0) {
       this.songsTableBody.innerHTML = '';
@@ -184,6 +187,12 @@ class SongApp {
     
     this.songsTableBody.innerHTML = this.filteredSongs.map(song => {
       const links = [];
+      if (song.spotifyUrl) {
+        links.push(`<a href="${song.spotifyUrl}" target="_blank" class="link-spotify">Spotify</a>`);
+      }
+      if (song.youtubeUrl) {
+        links.push(`<a href="${song.youtubeUrl}" target="_blank" class="link-youtube">YouTube</a>`);
+      }
       if (song.cifraClubUrl) {
         links.push(`<a href="${song.cifraClubUrl}" target="_blank" class="link-cc">Cifra Club</a>`);
       }
